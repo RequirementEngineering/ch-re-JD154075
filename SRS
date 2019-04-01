@@ -1,12 +1,15 @@
-Introduction
+#Registry
+##Introduction
   Purpose
   *User needs a program that does a registry in a database, that shows the punch in and punch out, of students that are doing their school social work during the semester or anual. 
   *Intended audience for the program  are the administrative faculty that are in charge of the social work.
- Scope
+##Scope
    a)Name of Program: 
       Students Registry Of Social Work
    b)Description of Program:
       1.The product will register the ins  and outs of students doing their school social services.
       2.The product will register the students using a barcode scanner.
       3.The product will send via email a weekly report of the database registry to the administrative personal.
-        1.The report  
+        1.The report  wil be in a portable document format, with in a exel templet formated with a school logo.
+      
+      
