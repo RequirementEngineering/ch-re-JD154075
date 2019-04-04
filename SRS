@@ -7,7 +7,7 @@
    a)Name of Program: 
       Students Registry Of Social Work
    b)Description of Program:
-      1.The pruduct will be a software interface in local domain.
+      1.The pruduct will be software interface in local domain.
       2.The product will register a timesheets and leave time of students doing their school social services.
       3.The product will register the students using a barcode scanner.
       4.The product will send via email a weekly report of the database registry to the administrative personal.
@@ -18,11 +18,18 @@
 ##Overall Description
   a)Product Perspective
     *The product will be independet and self-contained.
-    *The product will be coded in C#
-    *The product will have a SQL Database
+    *The product will be coded in C#.
+    *The product will have a SQL Database.
     *external entities 
-    *system interfaces
+    *system interfaces will be easy to follow
+    ---- diagram-----
   b)Product Functions
+    *Log and submit time spent on services
+    *Manage leave time
+    *Generate, print and export report
+    *Employee management
+    *Time approval and rejection with notification
+    *Time/Student Management
   c)User Characteristics
   d)Constraints
   e)Assumptions and Dependencies
