@@ -134,7 +134,7 @@ description of the system and all its features.
 </p>
 <br>
 
-1. A first-time user of the system should see the log-in page when he/she opens the application, see Figure 2. If the user has not registered, he/she should be able to do that on the log-in page.
+1. A first-time user of the system should see the log-in page when he/she opens the application. See Figure 2, If the user has not registered, he/she should be able to do that on the log-in page.
 
 <br>
 <p align="center">
@@ -152,5 +152,21 @@ application is opened, see Figure 3. Here the user chooses the type of search he
   src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/3.PNG">
 </p>
 <br>
+
+3. Every user should have a profile page where they can edit their e-mail address, ID, phone number, and name see Figure 4. 
+<br>
+<p align="center">
+<img width="300" height="200" alt="Figure 1"
+  src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/4.PNG">
+</p>
+<br>
+
+## 3.2 Hardware interfaces
+Since the software system application does not have any designated hardware, it does not have any direct hardware interfaces. The physical system is managed by the application and the hardware connection to the database server is managed by the underlying operating system.
+
+## 3.3 Software interfaces
+## 3.4 Communications interfaces
+## 3.5 Functional requirements
+
 
 #   4.Supporting Information
