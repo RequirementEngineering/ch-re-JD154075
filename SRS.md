@@ -123,6 +123,12 @@ Dependencies	   | Description|
  D-3	   | Depend that all data shall be inserted correctly.|
  
 #   3.Specific requirements
+This section contains all of the functional and quality requirements of the system. It gives a detailed
+description of the system and all its features. 
+## 3.1  User interfaces
+1. A first-time user of the system should see the log-in page when he/she opens the application, see Figure 1. If the user has not registered, he/she should be able to do that on the log-in page.
 
+2. If the user is not a first-time user, he/she should be able to see the search page directly when the
+application is opened, see Figure 2. Here the user chooses the type of search he/she wants to conduct.
 
 #   4.Supporting Information
