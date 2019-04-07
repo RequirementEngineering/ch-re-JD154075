@@ -43,7 +43,13 @@ Terms | Definition |
 *Registry* | `Place where registers or records are kept.` | 
 *IEEE* | `Institute of Electrical and Electronic Engineers` | 
 *PL* | `Programming Language` |
-*F* | `Functions` |
+*F-#* | `Functions` |
+*C-#* | `Constraints` |
+*OS* | `Operating System` |
+*A-#* | `Assumptions` |
+*D-#* | `Dependencies` |
+
+
 
             
 ##    1.4 References 
@@ -93,8 +99,29 @@ System Administrator	   | The System Administrator can imitate any type of user 
 Student	   | The Student is the person or people who are using the system to register for an account, access activities, view timesheets linked to an activity, viewing their progress for each activity and overall points.|
 
 ##   2.4 Constraints
-##   2.5 Assumptions and Dependencies
+ Constraint	   | Description|
+--- | --- |
+ C-1	   | Must use student ID as a unique identifier for a student account.|
+ C-2	   | All data shall be stored on SQL Engine.|
+ C-3	   | All stored data shall be transferable in case of any manual reset.|
+ C-4	   | Software system shall not be restricted by any OS.|
+ C-5	   | Timesheet report shall be in a templet showing school logo and administration when exported to a report.|
+ C-6	   | Software system shall send a weekly reoprt via E-mail to a faculty administrator.|
 
+##   2.5 Assumptions and Dependencies
+ Assumption	   | Description|
+ --- | --- |
+ A-1	   | Assumed that the software system has no database limit.|
+ A-2	   | Assumed that their is no mistake in student registry.|
+ A-3	   | Assumed that their is no mistake in data compile when the software system is doing the report.|
+ A-4	   | Assumed that all database shall be transferable.|
+ 
+Dependencies	   | Description|
+ --- | --- |
+ D-1	   | Depend that all database shall be transferable.|
+ D-2	   | Depend that the software system shall send an E-mail report weekly.|
+ D-3	   | Depend that all data shall be inserted correctly.|
+ 
 #   3.Specific requirements
 
 
