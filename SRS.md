@@ -48,7 +48,11 @@ Terms | Definition |
 *OS* | `Operating System` |
 *A-#* | `Assumptions` |
 *D-#* | `Dependencies` |
+*CI-#* | `Communications Interfaces` |
 *FR-#* | `Functional requirement` |
+*Query* | `A question` |
+
+
 
 
 
@@ -172,6 +176,12 @@ The application communicates with the software system in order to get database i
 ## 3.4 Communications interfaces
 The communication between the different parts of the system is important since they depend on each
 other.
+
+Communications Interfaces	   | Description|
+ --- | --- |
+ CI-1	   | The system shall send a notification to the user to inform them of time approval or rejection.|
+ CI-2	   | The system shall send an email message to confirm registration with the system.|
+ CI-3	   | The system shall send a notification to inform the user of new email messages, instant messages, or calendar event invitations.|
 ## 3.5 Functional Requirements
 Functional Requirements   | <br>| Description|
 --- | --- |--- |
@@ -180,5 +190,9 @@ FR-2	   | Student  Change/Cancel |The system shall let a user that is an adminis
 FR-3	   | Student Edit |The system shall let a user that is an administrator with correct permissions who is logged into the system to edit students.|
 FR-4	   | Student Remove |The system shall let a user that is an administrator with correct permissions who is logged into the system to remove students.|
 FR-5	   | Student Review |The system shall let a user that is an administrator with correct permissions who is logged into the system to review students.|
-
+FR-6	   | Student Review |The system shall let a user that is an administrator with correct permissions who is logged into the system to review students.|
+## 3.6 Nonfunctional Requirements
+Nonfunctional Requirements	   | Description|
+ --- | --- |
+NR-1	   | Responses to queries shall take no longer than 5 seconds to load onto the screen after the user submits the query.|
 #   4.Supporting Information
