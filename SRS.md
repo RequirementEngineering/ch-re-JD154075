@@ -165,8 +165,10 @@ application is opened, see Figure 3. Here the user chooses the type of search he
 Since the software system application does not have any designated hardware, it does not have any direct hardware interfaces. The physical system is managed by the application and the hardware connection to the database server is managed by the underlying operating system.
 
 ## 3.3 Software interfaces
+The application communicates with the software system in order to get database information. The communication between the database and the application consists of operation concerning both reading and modifying the data, while the communication between the database and the application consists of only reading operations.
+
 ## 3.4 Communications interfaces
+The communication between the different parts of the system is important since they depend on each
+other.
 ## 3.5 Functional requirements
-
-
 #   4.Supporting Information
