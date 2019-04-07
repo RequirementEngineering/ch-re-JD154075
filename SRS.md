@@ -88,7 +88,7 @@ F-18	   |System Admins can temporarily change their account privileges to that o
 ##   2.3 User Characteristics
 Actors	   | Description|
 --- | --- |
-Faculty Administrator	   | The Faculty Administrator is the person or people who are using the system to validate student registration, setting up activity reports for a Student to access, link activities to outcomes or objectives, add timesheets to support the activities, manage how many points each activity is worth, viewing the progress of students, and a way to change the interface to make it more appealing through the use of custom software.|
+Faculty Administrator	   | The Faculty Administrator is the person or people who are using the system to validate student registration, setting up activity reports for a student to access, link activities to outcomes or objectives, add timesheets to support the activities, manage how many points each activity is worth, viewing the progress of students, and a way to change the interface to make it more appealing through the use of custom software.|
 System Administrator	   | The System Administrator can imitate any type of user in the system, can access and modify the database, and has all the privileges of all other user types.|
 Student	   | The Student is the person or people who are using the system to register for an account, access activities, view timesheets linked to an activity, viewing their progress for each activity and overall points.|
 
