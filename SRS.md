@@ -154,7 +154,8 @@ application is opened, see Figure 3. Here the user chooses the type of search he
 </p>
 <br>
 
-3. Every user should have a profile page where they can edit their e-mail address, ID, phone number, and name see Figure 4. 
+3. Every user should have a profile page where they can edit their e-mail address, ID, phone number, and name ,see Figure 4. 
+
 <br>
 <p align="center">
 <img width="300" height="200" alt="Figure 1"
