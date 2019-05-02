@@ -138,7 +138,7 @@ description of the system and all its features.
 <br>
 <p align="center">
 <img width="200" height="200" alt="Figure 1"
-  src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/1.PNG">
+  src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/User%20interfaces_Images/1.png">
 </p>
 <br>
 
@@ -147,7 +147,7 @@ description of the system and all its features.
 <br>
 <p align="center">
 <img width="200" height="200" alt="Figure 1"
-  src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/2.PNG">
+  src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/User%20interfaces_Images/2.png">
 </p>
 <br>
 
@@ -157,7 +157,7 @@ application is opened, see Figure 3. Here the user chooses the type of search he
 <br>
 <p align="center">
 <img width="200" height="200" alt="Figure 1"
-  src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/3.PNG">
+  src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/User%20interfaces_Images/3.png">
 </p>
 <br>
 
@@ -166,7 +166,7 @@ application is opened, see Figure 3. Here the user chooses the type of search he
 <br>
 <p align="center">
 <img width="300" height="200" alt="Figure 1"
-  src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/4.PNG">
+  src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/User%20interfaces_Images/4.png">
 </p>
 <br>
 
