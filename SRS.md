@@ -22,7 +22,7 @@ Prepared by Juan Mata</br>
 
 #   1. Introduction
 ##    1.1 Purpose
-This SRS document is to present a detailed description of the Students Social Service Database Registry or **SSSDR** (final name pending). It will explain the point and attributes of the system, such as the interfaces of the system, what the system will do, the constraints under which it must operate.
+This document is meant to portray the features of the Students Social Service Database Registry or **SSSDR** (final name pending). It will explain the point and attributes of the system, such as the interfaces of the system, what the system will do, the constraints under which it must operate.
 This document is intended for both the faculty service administrators that oversee the social work program and the developers of the system.
 
      
