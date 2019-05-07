@@ -207,14 +207,14 @@ FR-4	   | Student Remove |The system shall let a user that is an administrator w
 FR-5	   | Student Review |The system shall let a user that is an administrator with correct permissions who is logged into the system to review students.|
 
 ### 3.5.1 Description of functional requirements by giving various Use Case.
-Use Case related to installation
+>Use Case related to installation
 
 `Use Case 1`	   |  <br>|  <br>|  
  --- | --- | --- | 
   <br>|`Primary Actor`	   | User|
   <br>|`Pre-condition`	   | Have .zip file of the software at hand and do installation of programs in order.|
   <br>|`Main Scenario`	   | Installation|
-  <br>| **Setp 1** | Install SQL Server 2016 LocalDB, which is located on the installation **SetupChecador.zip** file, named as: **SqlLocalDB.msi** |
+  <br>| **Setp 1** | Install **SQL Server 2016 LocalDB**, which is located on the installation **SetupChecador.zip** file, named as: `**SqlLocalDB.msi**` |
 
 ## 3.6 Nonfunctional Requirements
 Nonfunctional Requirements	   | Description|
