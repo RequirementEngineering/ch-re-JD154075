@@ -214,7 +214,7 @@ FR-5	   | Student Review |The system shall let a user that is an administrator w
   <br>|`Primary Actor`	   | User|
   <br>|`Pre-condition`	   | Have .zip file of the software at hand and do installation of programs in order.|
   <br>|`Main Scenario`	   | Installation|
-  <br>| **Setp 1** | Install **SQL Server 2016 LocalDB**, which is located on the installation **SetupChecador.zip** file, named as: `**SqlLocalDB.msi**` |
+  <br>| **Setp 1** | Install **SQL Server 2016 LocalDB**, which is located on the installation **SetupChecador.zip** file, named as: `SqlLocalDB.msi` |
 
 ## 3.6 Nonfunctional Requirements
 Nonfunctional Requirements	   | Description|
