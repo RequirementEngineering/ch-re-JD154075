@@ -120,7 +120,7 @@ Student	   | The Student is the person or people who are using the system to reg
  Assumption	   | Description|
  --- | --- |
  A-1	   | Assumed that the software system has no database limit.|
- A-2	   | Assumed that their is no mistake in student registry.|
+ A-2	   | Assumed that there is no mistake in student registry.|
  A-3	   | Assumed that their is no mistake in data compile when the software system is doing the report.|
  A-4	   | Assumed that all database shall be transferable.|
  
