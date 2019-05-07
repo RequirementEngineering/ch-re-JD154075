@@ -193,7 +193,6 @@ FR-2	   | Student  Change/Cancel |The system shall let a user that is an adminis
 FR-3	   | Student Edit |The system shall let a user that is an administrator with correct permissions who is logged into the system to edit students.|
 FR-4	   | Student Remove |The system shall let a user that is an administrator with correct permissions who is logged into the system to remove students.|
 FR-5	   | Student Review |The system shall let a user that is an administrator with correct permissions who is logged into the system to review students.|
-FR-6	   | Student Review |The system shall let a user that is an administrator with correct permissions who is logged into the system to review students.|
 ## 3.6 Nonfunctional Requirements
 Nonfunctional Requirements	   | Description|
  --- | --- |
