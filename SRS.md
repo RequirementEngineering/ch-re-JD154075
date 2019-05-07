@@ -228,6 +228,23 @@ FR-5	   | Student Review |The system shall let a user that is an administrator w
    <br>| **Setp 12** |  In order for the configuration changes made in **Microsoft SQL Server LocalDB** to take **effect**, the system will have to **restart**. |
    <br>| **Setp 13** |  When accepting, click **Si**. |
    <br>| **Setp 14** |  After restarting the system, **Microsoft SQL Server 2016 LocalDB** will be installed. |
+   <br>| <br> |  `Next step is to install the application` |
+   <br>| **Setp 1** |  Install **Chocador Asistencia.app**, which is located on the installation **SetupChecador.zip** file, named as: `Setup Checador.msi`|
+   <br>| **Setp 2** |  Before starting installation, `read all the contents of the installation window`. |
+   <br>| **Setp 3** |  Having read all the content, click **Siguientet**. |
+   <br>| **Setp 4** |  Select folder location, where **Chocador Asistencia.app** installation will take place. |
+   <br>| **Setp 5** |  Choose if the installation of **Chocador Asistencia.app** will be in all users or in a single user of the system. |
+   <br>| **Setp 6** |  When finished click on **Siguiente**. |
+   <br>| **Setp 7** |  Confirm Installation. |
+   <br>| **Setp 8** |  The installer is ready to install **Chocador Asistencia.app** on the computer. |
+   <br>| **Setp 9** |  Click **Siguiente** to begin the installation. |
+   <br>| **Setp 10** |  Installation complete. |
+   <br>| **Setp 11** |  **Chocador Asistencia.app** installed correctly |
+   <br>| **Setp 12** |  Click on **Cerrar** to exit the window. |
+   <br>| **Setp 13** |  Use **Windows Update** to verify any important updates to the .NET Framework. |
+   <br>| **Setp 14** |  Ready, installation completed. |
+   <br>| **Setp 15** |  **Chocador Asistencia.app** will appear on the desktop of the device. |
+   <br>| **Setp 16** |  Click on **Chocador Asistencia.app** to start use. |
 
 ## 3.6 Nonfunctional Requirements
 Nonfunctional Requirements	   | Description|
