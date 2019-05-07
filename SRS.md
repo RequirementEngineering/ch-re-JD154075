@@ -141,6 +141,10 @@ description of the system and all its features.
   src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/User%20interfaces_Images/1.png">
 </p>
 <br>
+<p align="center">
+Figure 1
+</p>
+<br>
 
 1. A first-time user of the system should see the log-in page when he/she opens the application. See Figure 2, If the user has not registered, he/she should be able to do that on the log-in page.
 
@@ -202,7 +206,7 @@ Use Case related to installation
   <br>|`Primary Actor`	   | User|
   <br>|`Pre-condition`	   | Have .zip file of the software at hand and do installation of programs in order.|
   <br>|`Main Scenario`	   | Installation|
-  <br>| **Setp 1** | Install SQL Server 2016 LocalDB, which is located on the installation (SetupChecador.zip), named as: **SqlLocalDB.msi** |
+  <br>| **Setp 1** | Install SQL Server 2016 LocalDB, which is located on the installation **SetupChecador.zip** file, named as: **SqlLocalDB.msi** |
 
 ## 3.6 Nonfunctional Requirements
 Nonfunctional Requirements	   | Description|
