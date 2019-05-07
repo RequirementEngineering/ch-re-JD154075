@@ -87,7 +87,7 @@ F-4	   |Student log-in.|
 F-5	   |Software system connects a student account to a database.|
 F-6	   |Software system creates a line of an overview so a student can access them and view their progress.|
 F-7	   |Software system adds a timesheet to a report.|
-F-8	   |Software system customizes the interface of the report that shows the activities using a background and other modifiable graphics.|
+F-8	   |Software system customize the interface of the report that shows the activities using a background and other modifiable graphics.|
 F-9	   |Faculty administrator can view progress of a student.|
 F-10	   |Faculty administrator accesses reports and associated timesheets.|
 F-11	   |Faculty administrators can share reports with another faculty members.|
