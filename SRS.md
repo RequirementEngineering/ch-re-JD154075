@@ -113,7 +113,7 @@ Student	   | The Student is the person or people who are using the system to reg
  C-2	   | All data shall be stored on SQL Engine.|
  C-3	   | All stored data shall be transferable in case of any manual reset.|
  C-4	   | Software system shall not be restricted by any OS.|
- C-5	   | Timesheet report shall be in a templet showing school logo and administration when exported to a report.|
+ C-5	   | Timesheet report shall be in a template showing school logo and administration when exported to a report.|
  C-6	   | Software system shall send a weekly reoprt via E-mail to a faculty administrator.|
 
 ##   2.5 Assumptions and Dependencies
