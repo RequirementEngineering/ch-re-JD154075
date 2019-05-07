@@ -130,8 +130,6 @@ Dependencies	   | Description|
  D-2	   | Depend that the software system shall send an E-mail report weekly.|
  D-3	   | Depend that all data shall be inserted correctly.|
  
- ##   2.6 General Use Case
- 
 #   3.Specific requirements
 This section contains all of the functional and quality requirements of the system. It gives a detailed
 description of the system and all its features. 
@@ -195,6 +193,9 @@ FR-2	   | Student  Change/Cancel |The system shall let a user that is an adminis
 FR-3	   | Student Edit |The system shall let a user that is an administrator with correct permissions who is logged into the system to edit students.|
 FR-4	   | Student Remove |The system shall let a user that is an administrator with correct permissions who is logged into the system to remove students.|
 FR-5	   | Student Review |The system shall let a user that is an administrator with correct permissions who is logged into the system to review students.|
+
+### We describe the functional requirements by giving various use case.
+
 ## 3.6 Nonfunctional Requirements
 Nonfunctional Requirements	   | Description|
  --- | --- |
