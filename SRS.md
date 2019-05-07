@@ -37,7 +37,7 @@ Terms | Definition |
 --- | --- | 
 *SSSRD* | `Students Social Service Database Registry` | 
 *Faculty Administrators* |  `The people that are in charge of the Social Service program.` | 
-*Students* | `Stuents that are conducting their social work.` | 
+*Students* | `Students that are conducting their social work.` | 
 *Timesheets* |  ` Records ins and outs of the students.` |
 *Database* |  `Collection of all the information monitored by this system.` |
 *Registry* | `Place where registers or records are kept.` | 
