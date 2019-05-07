@@ -99,14 +99,17 @@ F-16	   |Faculty administrator can make a copy of a database they own.|
 F-17	   |System Admins can temporarily change their account privileges to that of a Faculty administrator.|
 F-18	   |System Admins can temporarily change their account privileges to that of a Student.|
 
-##   2.3 User Characteristics
+##   2.3 General Use Case
+
+
+##   2.4 User Characteristics
 Actors	   | Description|
 --- | --- |
 Faculty Administrator	   | The Faculty Administrator is the person or people who are using the system to validate student registration, setting up activity reports for a student to access, link activities to outcomes or objectives, add timesheets to support the activities, manage how many points each activity is worth, viewing the progress of students, and a way to change the interface to make it more appealing through the use of custom software.|
 System Administrator	   | The System Administrator can imitate any type of user in the system, can access and modify the database, and has all the privileges of all other user types.|
 Student	   | The Student is the person or people who are using the system to register for an account, access activities, view timesheets linked to an activity, viewing their progress for each activity and overall points.|
 
-##   2.4 Constraints
+##   2.5 Constraints
  Constraint	   | Description|
 --- | --- |
  C-1	   | Must use student ID as a unique identifier for a student account.|
@@ -116,7 +119,7 @@ Student	   | The Student is the person or people who are using the system to reg
  C-5	   | Timesheet report shall be in a template showing school logo and administration when exported to a report.|
  C-6	   | Software system shall send a weekly reoprt via E-mail to a faculty administrator.|
 
-##   2.5 Assumptions and Dependencies
+##   2.6 Assumptions and Dependencies
  Assumption	   | Description|
  --- | --- |
  A-1	   | Assumed that the software system has no database limit.|
