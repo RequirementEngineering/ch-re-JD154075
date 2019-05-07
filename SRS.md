@@ -207,7 +207,7 @@ FR-4	   | Student Remove |The system shall let a user that is an administrator w
 FR-5	   | Student Review |The system shall let a user that is an administrator with correct permissions who is logged into the system to review students.|
 
 ### 3.5.1 Description of functional requirements by giving various Use Case.
->Use Case related to installation
+>Use Case related to **Installation**.
 
 `Use Case 1`	   |  <br>|  <br>|  
  --- | --- | --- | 
@@ -216,7 +216,7 @@ FR-5	   | Student Review |The system shall let a user that is an administrator w
   <br>|`Main Scenario`	   | Installation|
   <br>| **Setp 1** | Install **SQL Server 2016 LocalDB**, which is located on the installation **SetupChecador.zip** file, named as: `SqlLocalDB.msi` |
    <br>| **Setp 2** |  Before starting installation, `read all the contents of the installation window`. |
-   <br>| **Setp 3** |  Having read all the content, click **Siguientet**. |
+   <br>| **Setp 3** |  Having read all the content, click **Siguiente**. |
    <br>| **Setp 4** |  Carefully read the following license agreement. |
    <br>| **Setp 5** |  Having read the contract and accepted the terms, click **Siguiente**. |
    <br>| **Setp 6** |  The configuration program is ready to **start** the **installation**. |
@@ -228,10 +228,10 @@ FR-5	   | Student Review |The system shall let a user that is an administrator w
    <br>| **Setp 12** |  In order for the configuration changes made in **Microsoft SQL Server LocalDB** to take **effect**, the system will have to **restart**. |
    <br>| **Setp 13** |  When accepting, click **Si**. |
    <br>| **Setp 14** |  After restarting the system, **Microsoft SQL Server 2016 LocalDB** will be installed. |
-   <br>| <br> |  `Next step is to install the application` |
+   <br>| <br> |  `Next step is to install the application.` |
    <br>| **Setp 1** |  Install **Chocador Asistencia.app**, which is located on the installation **SetupChecador.zip** file, named as: `Setup Checador.msi`|
    <br>| **Setp 2** |  Before starting installation, `read all the contents of the installation window`. |
-   <br>| **Setp 3** |  Having read all the content, click **Siguientet**. |
+   <br>| **Setp 3** |  Having read all the content, click **Siguiente**. |
    <br>| **Setp 4** |  Select folder location, where **Chocador Asistencia.app** installation will take place. |
    <br>| **Setp 5** |  Choose if the installation of **Chocador Asistencia.app** will be in all users or in a single user of the system. |
    <br>| **Setp 6** |  When finished click on **Siguiente**. |
@@ -245,7 +245,55 @@ FR-5	   | Student Review |The system shall let a user that is an administrator w
    <br>| **Setp 14** |  Ready, installation completed. |
    <br>| **Setp 15** |  **Chocador Asistencia.app** will appear on the desktop of the device. |
    <br>| **Setp 16** |  Click on **Chocador Asistencia.app** to start use. |
+   
+>Use Case related to **Registry**.
 
+`Use Case 2`	   |  <br>|  <br>|  
+ --- | --- | --- | 
+  <br>|`Primary Actor`	   | User|
+  <br>|`Pre-condition`	   | Correct installation of **Chocador Asistencia.app**.|
+  <br>|`Main Scenario`	   | Registry of students|
+  
+ >Use Case related to **Consult**.
+
+`Use Case 3`	   |  <br>|  <br>|  
+ --- | --- | --- | 
+  <br>|`Primary Actor`	   | User|
+  <br>|`Pre-condition`	   | Correct registry of students.|
+  <br>|`Main Scenario`	   | Consult of registry of students|
+  
+>Use Case related to **Export**.
+
+`Use Case 4`	   |  <br>|  <br>|  
+ --- | --- | --- | 
+  <br>|`Primary Actor`	   | User|
+  <br>|`Pre-condition`	   | Correct consult of registry of students.|
+  <br>|`Main Scenario`	   | Export of registry of students|
+  
+>Use Case related to **Export Excel File**.
+
+`Use Case 5`	   |  <br>|  <br>|  
+ --- | --- | --- | 
+  <br>|`Primary Actor`	   | User|
+  <br>|`Pre-condition`	   | Correct export of registry of students|
+  <br>|`Main Scenario`	   | Export Excel File|
+  
+>Use Case related to **Modification**.
+
+`Use Case 6`	   |  <br>|  <br>|  
+ --- | --- | --- | 
+  <br>|`Primary Actor`	   | User|
+  <br>|`Pre-condition`	   | Correct registry of student **ID**.|
+  <br>|`Main Scenario`	   | Modification of registry of students|
+  
+>Use Case related to **Uninstall**.
+
+`Use Case 7`	   |  <br>|  <br>|  
+ --- | --- | --- | 
+  <br>|`Primary Actor`	   | User|
+  <br>|`Pre-condition`	   | None.|
+  <br>|`Main Scenario`	   | Uninstalling **Chocador Asistencia.app**|
+  
 ## 3.6 Nonfunctional Requirements
 Nonfunctional Requirements	   | Description|
  --- | --- |
