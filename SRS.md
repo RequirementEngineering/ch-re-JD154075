@@ -197,12 +197,12 @@ FR-5	   | Student Review |The system shall let a user that is an administrator w
 ### Description of functional requirements by giving various use case.
 Use case related to installation
 
-`Use Case 1`	   |  <br>|
- --- | --- |
-`Primary Actor`	   | User|
-`Pre-condition`	   | Have .zip file of the software at hand and do installation of programs in order.|
-`Main Scenario`	   | Installation|
- Setp 1 | Install SQL Server 2016 LocalDB, which is located on the installation (SetupChecador.zip), named as: *SqlLocalDB.msi* |
+`Use Case 1`	   |  <br>|  <br>|  <br>|
+ --- | --- | --- | --- |
+  <br>|`Primary Actor`	   | User|
+  <br>|`Pre-condition`	   | Have .zip file of the software at hand and do installation of programs in order.|
+  <br>|`Main Scenario`	   | Installation|
+    <br>|<br>| Setp 1 | Install SQL Server 2016 LocalDB, which is located on the installation (SetupChecador.zip), named as: *SqlLocalDB.msi* |
 
 ## 3.6 Nonfunctional Requirements
 Nonfunctional Requirements	   | Description|
