@@ -197,7 +197,7 @@ FR-5	   | Student Review |The system shall let a user that is an administrator w
 ### Description of functional requirements by giving various use case.
 Use case related to installation
 
-`Use Case 1`	   | 
+`Use Case 1`	   |  <br>|
  --- | --- |
 `Primary Actor`	   | User|
 `Pre-condition`	   | Have .zip file of the software at hand and do installation of programs in order.|
