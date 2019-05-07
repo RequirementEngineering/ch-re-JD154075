@@ -215,7 +215,16 @@ FR-5	   | Student Review |The system shall let a user that is an administrator w
   <br>|`Pre-condition`	   | Have .zip file of the software at hand and do installation of programs in order.|
   <br>|`Main Scenario`	   | Installation|
   <br>| **Setp 1** | Install **SQL Server 2016 LocalDB**, which is located on the installation **SetupChecador.zip** file, named as: `SqlLocalDB.msi` |
-   <br>| **Setp 2** |  |
+   <br>| **Setp 2** | When starting to installation, *read all the contents of the installation window*. |
+   <br>| **Setp 3** |  Having read all the content, click **Siguientet>**. |
+   <br>| **Setp 4** |  Carefully read the following license agreement. |
+   <br>| **Setp 5** |  Having read the contract and accepted the terms, click **Siguiente>**. |
+   <br>| **Setp 6** |  The configuration program is ready to **start** the **installation**. |
+   <br>| **Setp 7** |  Click **Instalar** to begin the installation. |
+   <br>| **Setp 8** |  It will take a few seconds to finish the installation of **Microsoft SQL Server 2016 LocalDB**. |
+   <br>| **Setp 9** |  When installation is finished, read all the contents of the window that appears |
+   <br>| **Setp 10** |  When finishing the revision of the window, we click on **Finalizar.**. |
+  
 
 ## 3.6 Nonfunctional Requirements
 Nonfunctional Requirements	   | Description|
