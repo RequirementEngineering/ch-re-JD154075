@@ -140,7 +140,6 @@ description of the system and all its features.
 <img width="200" height="200" alt="Figure 1"
   src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/User%20interfaces_Images/1.png">
 </p>
-<br>
 <p align="center">
 Figure 1
 </p>
