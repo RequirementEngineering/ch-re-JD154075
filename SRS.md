@@ -50,7 +50,7 @@ Terms | Definition |
 *D-#* | `Dependencies` |
 *CI-#* | `Communications Interfaces` |
 *FR-#* | `Functional requirement` |
-*NR-#* | `Nonfunctional Requirements` |
+*NR-#* | `Non Functional Requirements` |
 *Query* | `A question` |
 
 
