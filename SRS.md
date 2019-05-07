@@ -89,7 +89,7 @@ F-6	   |Software system creates a line of an overview so a student can access th
 F-7	   |Software system adds a timesheet to a report.|
 F-8	   |Software system customize the interface of the report that shows the activities using a background and other modifiable graphics.|
 F-9	   |Faculty administrator can view progress of a student.|
-F-10	   |Faculty administrator accesses reports and associated timesheets.|
+F-10	   |Faculty administrator access reports and associated timesheets.|
 F-11	   |Faculty administrators can share reports with another faculty members.|
 F-12	   |Faculty administrator validates work that student has done before the student is given points.|
 F-13	   |Faculty administrator can modify database by add/drop/delete a registry of student.|
