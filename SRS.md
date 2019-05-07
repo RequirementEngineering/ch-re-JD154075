@@ -152,6 +152,9 @@ Figure 1
 <img width="200" height="200" alt="Figure 1"
   src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/User%20interfaces_Images/2.png">
 </p>
+<p align="center">
+Figure 2
+</p>
 <br>
 
 2. If the user is not a first-time user, he/she should be able to see the search page directly when the
@@ -162,6 +165,9 @@ application is opened, see Figure 3. Here the user chooses the type of search he
 <img width="200" height="200" alt="Figure 1"
   src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/User%20interfaces_Images/3.png">
 </p>
+<p align="center">
+Figure 3
+</p>
 <br>
 
 3. Every user should have a profile page where they can edit their name,ID,e-mail address, and phone number ,see Figure 4. 
@@ -170,6 +176,9 @@ application is opened, see Figure 3. Here the user chooses the type of search he
 <p align="center">
 <img width="300" height="200" alt="Figure 1"
   src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/User%20interfaces_Images/4.png">
+</p>
+<p align="center">
+Figure 4
 </p>
 <br>
 
