@@ -214,7 +214,7 @@ FR-5	   | Student Review |The system shall let a user that is an administrator w
   <br>|`Primary Actor`	   | User|
   <br>|`Pre-condition`	   | Have .zip file of the software at hand and do installation of programs in order.|
   <br>|`Main Scenario`	   | Installation|
-  <br>| **Setp 1** | Install **SQL Server 2016 LocalDB**, which is located on the installation **SetupChecador.zip** file, named as: `SqlLocalDB.msi` |
+  <br>| **Setp 1** | Install **SQL Server 2016 LocalDB**, which is located on the installation file**SetupChecador.zip**, named as: `SqlLocalDB.msi` |
    <br>| **Setp 2** |  Before starting installation, `read all the contents of the installation window`. |
    <br>| **Setp 3** |  Having read all the content, click **Siguiente**. |
    <br>| **Setp 4** |  Carefully read the following license agreement. |
@@ -229,7 +229,7 @@ FR-5	   | Student Review |The system shall let a user that is an administrator w
    <br>| **Setp 13** |  When accepting, click **Si**. |
    <br>| **Setp 14** |  After restarting the system, **Microsoft SQL Server 2016 LocalDB** will be installed. |
    <br>| <br> |  `Next step is to install the application.` |
-   <br>| **Setp 1** |  Install **Chocador Asistencia.app**, which is located on the installation **SetupChecador.zip** file, named as: `Setup Checador.msi`|
+   <br>| **Setp 1** |  Install **Chocador Asistencia.app**, which is located on the installation file **SetupChecador.zip**, named as: `Setup Checador.msi`|
    <br>| **Setp 2** |  Before starting installation, `read all the contents of the installation window`. |
    <br>| **Setp 3** |  Having read all the content, click **Siguiente**. |
    <br>| **Setp 4** |  Select folder location, where **Chocador Asistencia.app** installation will take place. |
