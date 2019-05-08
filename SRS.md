@@ -42,11 +42,12 @@ Terms | Definition |
 *Students* | `Students that are conducting their social work.` |
 *Local Server* |  `Server that is running in a local or a mounted folder and whose document root is NOT the parent of the project root.` |
 *Standalone Machine* | `Device is any mechanism or system that can perform its function without the need of another device, computer, or connection.` |
-*Timesheets* |  ` Records ins and outs of the students.` |
+*Timesheets* |  `Detailed records showing the amount of time spent on each project or student.` |
 *Database* |  `Collection of all the information monitored by this system.` |
 *Registry* | `Place where registers or records are kept.` | 
 *IEEE* | `Institute of Electrical and Electronic Engineers` | 
-*PL* | `Programming Language` |
+*Programming Language* | `A vocabulary and set of grammatical rules for instructing a computer or computing device to perform specific tasks.` |
+*C#* | `Pronounced C sharp, is a general-purpose, multi-paradigm programming language encompassing strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.` |
 *F-#* | `Functions` |
 *C-#* | `Constraints` |
 *OS* | `Operating System` |
@@ -76,7 +77,7 @@ This software system is a new attempt to meet new automatize registry of student
 
 ##   2.1 Product Perspective
 1. The software system will be independent and self-contained.
-2. The software system will be coded in PL C#.
+2. The software system will be coded in programming language C#.
 3. The software system will have a SQL Database.
 4. The software system will have external entities(such as a barcode scanner).
 5. The software system interface will be easy to follow.
