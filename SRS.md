@@ -21,7 +21,7 @@ Prepared by Juan Mata</br>
 
 
 #   1. Introduction
-This document is meant to portray the student's social service database registry project **SSSDR** or **Chocador Asistencia** *final name pending*. It explains the purpose of the system's program; such as it's interfaces, it's dos and don'ts  , the constraints under which it must operate, and it's countenance after it's development. 
+This document is meant to portray the student's social service database registry project **SSSDR** or **Chocador Asistencia**, *final name pending*. It explains the purpose of the system's program; such as it's overall description, it's dos and don'ts, the constraints under which it must operate,it's interfaces and and it's countenance after it's development. 
 This document is intended for both the faculty service administrators that oversee the social work program and the developers of the system.
 
 ##    1.1 Purpose
@@ -29,7 +29,7 @@ This document is intended for both the faculty service administrators that overs
 
      
 ##    1.2 Scope
-This software system will be a local server system for a local school faculty administrator. This system will be designed to maximize the administrator’s productivity by providing tools to assist in automating the database registry review, which would otherwise have to be performed manually. By maximizing the administrator’s work efficiency and production, the system will meet the administrator’s needs while remaining easy to understand and use. The software will facilitate communication between faculty administrators and students via E-Mail. Preformatted reply forms are used in every stage of the database registry progress through the system to provide a uniform review process; the location of these forms is configurable via the application’s maintenance options. The system also contains a relational database containing a list of timesheets,faculty administrators, and students.
+This software system will be a **local server** system for a **standalone machine** of the school's laboratory administrator. This system will be designed to maximize the administrator’s productivity by providing tools to assist in automating the database registry review, which would otherwise have to be performed manually. By maximizing the administrator’s work efficiency and production, the system will meet the administrator’s needs while remaining easy to understand and use. The software will facilitate communication between faculty administrators and students via E-Mail. Preformatted reply forms are used in every stage of the database registry progress through the system to provide a uniform review process; the location of these forms is configurable via the application’s maintenance options. The system also contains a relational database containing a list of timesheets,faculty administrators, and students.
 
 In short words,the **SSSDR** will permit the school's faculty administrator to manage automized timesheets where he can print or export corresponding reports related to that data. 
     
@@ -38,8 +38,10 @@ In short words,the **SSSDR** will permit the school's faculty administrator to m
 Terms | Definition | 
 --- | --- | 
 *SSSRD* | `Students Social Service Database Registry` | 
-*Faculty Administrators* |  `The people that are in charge of the Social Service program.` | 
-*Students* | `Students that are conducting their social work.` | 
+*Laboratory Administrators* |  `The person that is in charge of the laboratory's management and it's social service program.` | 
+*Students* | `Students that are conducting their social work.` |
+*Local Server* |  `Server that is running in a local or a mounted folder and whose document root is NOT the parent of the project root.` |
+*Standalone Machine* | `Device is any mechanism or system that can perform its function without the need of another device, computer, or connection.` |
 *Timesheets* |  ` Records ins and outs of the students.` |
 *Database* |  `Collection of all the information monitored by this system.` |
 *Registry* | `Place where registers or records are kept.` | 
