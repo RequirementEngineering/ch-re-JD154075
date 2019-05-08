@@ -29,7 +29,7 @@ This document is intended for both the faculty service administrators that overs
 ##    1.2 Scope
 This software system will be a local server system for a local school faculty administrator. This system will be designed to maximize the administrator’s productivity by providing tools to assist in automating the database registry review, which would otherwise have to be performed manually. By maximizing the administrator’s work efficiency and production, the system will meet the administrator’s needs while remaining easy to understand and use. The software will facilitate communication between faculty administrators and students via E-Mail. Preformatted reply forms are used in every stage of the database registry progress through the system to provide a uniform review process; the location of these forms is configurable via the application’s maintenance options. The system also contains a relational database containing a list of timesheets,faculty administrators, and students.
 
-In short words,the **SSSDR** will permit users to manage timesheets and leave time and generate, print or export corresponding reports related to that data. 
+In short words,the **SSSDR** will permit the users to manage timesheets, print or export corresponding reports related to that data. 
     
 
 ##    1.3 Definitions, acronyms, and abbreviations
