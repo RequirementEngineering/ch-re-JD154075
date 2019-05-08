@@ -145,7 +145,7 @@ Figure 1
 </p>
 <br>
 
-1. A first-time user of the system should see the log-in page when he/she opens the application. See Figure 2, If the user has not registered, he/she should be able to do that on the log-in page.
+1. A first-time user of the system should see the log-in page when he/she opens the application. If the user has not registered, he/she should be able to do that on the log-in page.See Figure 2.
 
 <br>
 <p align="center">
