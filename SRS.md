@@ -417,12 +417,13 @@ Line Number|  Actors	   |  <br>|
  --- | --- | --- | 
   Line 1|  Developers: |Hello, Ok so what we have to show for you, is the software program's interface and an SQL database, wich neither of them are interconnected  yet.	   |
   Line 2|  `Laboratory Director:` |`Ok, I like it.`	   |
-  Line 3|  Developers: |We were exchanging ideas on how to do it, and we both concluded that this program has to be on a local server, since an online server is not the best option for what the program is being asked to do. It would be depend on third parties.There is also the problem that we would have to pay for the server, and since this program is for the school, it is not possible.
-There are free server, but there may be the occasion that the online server falls and that's independable.
+  Line 3|  Developers: |We were exchanging ideas on how to do it, and we both concluded that this program has to be on a local server, since an online server is not the best option for what the program is being asked to do. It would be depend on third parties.There is also the problem that we would have to pay for the server, and since this program is for the school, it is not possible.	   |
+  Line 4|  Developers: |There are free server, but there may be the occasion that the online server falls and that's independable.	   |
+  Line 5|  Developers: |There are free server, but there may be the occasion that the online server falls and that's independable.
 So we do not think we can give you a software program that can be used on a tablet.	   |
-  Line 4|  `Laboratory Director:` |`Oh Ok, I understand.So a better idea would be, making the software program installable on a stand alone machine,which would be my computer, do you think you can make that database sharable with its own program on another stand alone machine ? `	   |
-  Line 5|  Developers: |We think it's possible,will se what we can do .	   |
-  Line 6|  Developers: |Ok,That's all we got for now, to show you.	   |
-  Line 7|  `Laboratory Director:` |`Ok guys, I like what you have so far, keep up the good work .`	   |
-  Line 8|  Developers: |Ok,thank you,see you next time.	   |
-  Line 9|  `Laboratory Director:` |`Ok then, till then.`	   |
+  Line 6|  `Laboratory Director:` |`Oh Ok, I understand.So a better idea would be, making the software program installable on a stand alone machine,which would be my computer, do you think you can make that database sharable with its own program on another stand alone machine ? `	   |
+  Line 7|  Developers: |We think it's possible,will se what we can do .	   |
+  Line 8|  Developers: |Ok,That's all we got for now, to show you.	   |
+  Line 9|  `Laboratory Director:` |`Ok guys, I like what you have so far, keep up the good work .`	   |
+  Line 10|  Developers: |Ok,thank you,see you next time.	   |
+  Line 11|  `Laboratory Director:` |`Ok then, till then.`	   |
