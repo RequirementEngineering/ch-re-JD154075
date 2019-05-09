@@ -12,7 +12,7 @@ Departamento de Ingeniería Electricidad y Computación</br>
 <p align="center">
 Software Requirements Specification</br>
 for</br>
-Student Service Database Registry</br>
+Laboratory Timesheets Database Registry</br>
 Prepared by Juan Mata</br>
 </p>
 
@@ -22,23 +22,25 @@ Prepared by Juan Mata</br>
 
 #   1. Introduction
 ##    1.1 Purpose
-This document is meant to portray the student's social service database registry project named as **Chocador Asistencia**. It explains the purpose of the system's program; such as it's overall description, it's dos and don'ts, the constraints under which it must operate,it's interface and it's actions after it's development. 
-This document is intended for both the laboratory service administrator that oversee the social work program and the developers of the system.
+This document is meant to portray the laboratory's timesheet database registry project named as **Chocador Asistencia**. By explaining the purpose of the system's software program; such as it's overall description, it's dos and don'ts,it's interface and it's actions after it's development. 
+This document is intended for both the **Laboratory Director** that oversee the work program and the **Developers** of the system.
 
 ##    1.2 Scope
-This software system will be a **local server** system for a **standalone machine** for the school's laboratory service administrator. 
-This system will be designed to maximize the laboratory service administrator’s productivity by providing tools to assist in automating the database registry, which would otherwise have to be performed manually. By maximizing the administrator’s work efficiency and production, the system will meet the laboratory service administrator’s needs while remaining easy to understand and use. The software will facilitate communication between faculty administrators and students via E-Mail. Preformatted reply forms are used in every stage of the database registry progress through the system to provide a uniform review process; the location of these forms is configurable via the application’s maintenance options. The system also contains a relational database containing a list of timesheets,faculty administrators, and students.
+This software system will be a **local server** system for a **standalone machine** for the school's laboratory director. 
+This system will be designed to maximize the laboratory director’s productivity by providing tools to assist in automating the timesheet database registry, which would otherwise have to be performed manually. By maximizing the laboratory director’s work efficiency and production, the system will meet the laboratory director’s needs while remaining easy to understand and use. The software will facilitate communication between the laboratory director,other faculty and students. A preformatted form is used in every stage of the timesheet database registry progress through the system to provide a uniform review process; the location of these form is configurable via the program’s maintenance options.
 
-In short words,**Chocador Asistencia** will permit the school's laboratory service administrator to manage automated timesheets,where he can export corresponding reports related to that data.
+In short words,**Chocador Asistencia** will permit the school's laboratory director to manage automated timesheets,where he can export corresponding reports related to that data.
 
 ##    1.3 Definitions, acronyms, and abbreviations
 Terms | Definition | 
 --- | --- | 
-*Laboratory Service Administrator* |  `The person that is in charge of the laboratory's management and it's social service program.` | 
+*Laboratory director* |  `The person that is in charge of the laboratory's management and it's programs.` | 
+*Faculty* |  `The body of teachers and administrators at a school.` | 
 *Students* | `Students that are conducting their social work.` |
+*Developers* | `The people that develop the software program.` |
 *Local Server* |  `Server that is running in a local or a mounted folder and whose document root is NOT the parent of the project root.` |
 *Standalone Machine* | `Device is any mechanism or system that can perform its function without the need of another device, computer, or connection.` |
-*Timesheets* |  `Detailed records showing the amount of time spent on each project or student.` |
+*Timesheets* |  `Detailed records showing the amount of time spent on each program or student.` |
 *Database* |  `Collection of all the information monitored by this system.` |
 *Registry* | `Place where registers or records are kept.` | 
 *IEEE* | `Institute of Electrical and Electronic Engineers` | 
@@ -57,11 +59,14 @@ Terms | Definition |
 IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Specifications. IEEE Computer Society, 1998.
 
 ##    1.5 Overview
-The remainder of this document describes the informal  and formal requirements and is used to establish a context for the technical requirements specification.
-These sections are cross-referenced by topic; to increase understanding by both groups involved.
+The remainder of this document describes the formal requirements and is used to establish a context for the technical requirements specification.
+*These sections are cross-referenced by topic; to increase understanding by both groups involved.*
 
 #   2.Overall Description
-This software system is a new attempt to meet new automatize registry of students by making a system where the laboratory service administrator can digitally view, create, modify, and share with other faculty a linear series of the student’s time records of their social work. Students can view and self-evaluate their progress, but not modify and will be rewarded with a certificate that mark their progress and achievements of their social hours.
+This software system is a new attempt to meet new automatize registry of timesheets by making a system where the laboratory director can digitally view, create, modify, and share with other faculty a linear series of the time records such as; 
+>1.Student's time in social work. Students can view and self-evaluate their progress, but not modify and will be rewarded with a certificate that mark their progress and achievements of their social hours.
+>2.Student's time in the work program.
+>2.Faculty use of laboratorys and it's equipments.
 
 ##   2.1 Product Perspective
 1. The software system will be independent and self-contained.
