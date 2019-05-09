@@ -12,7 +12,7 @@ Departamento de Ingeniería Electricidad y Computación</br>
 <p align="center">
 Software Requirements Specification</br>
 for</br>
-Laboratory Timesheets Database Registry</br>
+Laboratorial Timesheets Database Registry</br>
 Prepared by Juan Mata</br>
 </p>
 
