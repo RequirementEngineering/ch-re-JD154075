@@ -453,4 +453,4 @@ Line Number|  Actors	   |  <br>|
   Line 1|  Developers: |Hello, Ok so what we have to show for you today, is that software program can modify,delete in the database registry through the interface,and it can export a report to temple preformatted with the school logo and title showing what the report is about. 	   |
   Line 2|  `Laboratory Director:` |`It's looking good.Will the modification option have a lock(sign in) restriction so that no student or facutly member can make a modification to the registry with out my authorization.  `	   |
   Line 3|  `Laboratory Director:` |`Can the interface be divide in to two sections, the students registry and faculty registry sense that the faculty registry involves the use of laboratories and equipment.     `	   |
-  Line 4|  Developers: |Yes will work on it. 	   |
+  Line 4|  Developers: |Yes we will work on it. 	   |
