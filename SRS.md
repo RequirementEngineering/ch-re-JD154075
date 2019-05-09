@@ -22,12 +22,12 @@ Prepared by Juan Mata</br>
 
 #   1. Introduction
 ##    1.1 Purpose
-This document is meant to portray the laboratory's timesheet database registry project named as **Chocador Asistencia**. By explaining the purpose of the system's software program; such as it's overall description, it's dos and don'ts,it's interface and it's actions after it's development. 
+This document is meant to portray the laboratory's automatized timesheet database registry project named as **Chocador Asistencia**. By explaining it's purpose; such as it's overall description, it's dos and don'ts,it's interface and it's actions after it's development. 
 This document is intended for both the **Laboratory Director** that oversee the work program and the **Developers** of the system.
 
 ##    1.2 Scope
-This software system will be a **local server** system for a **standalone machine** for the school's laboratory director. 
-This system will be designed to maximize the laboratory director’s productivity by providing tools to assist in automating the timesheet database registry, which would otherwise have to be performed manually. By maximizing the laboratory director’s work efficiency and production, the system will meet the laboratory director’s needs while remaining easy to understand and use. The software will facilitate communication between the laboratory director,other faculty and students. A preformatted form is used in every stage of the timesheet database registry progress through the system to provide a uniform review process; the location of these form is configurable via the program’s maintenance options.
+This software program will be a **local server** system for a **standalone machine** for the school's laboratory director. 
+This software program will be designed to maximize the laboratory director’s productivity by providing tools to assist in automating the timesheet database registry, which would otherwise have to be performed manually. By maximizing the laboratory director’s work efficiency and production, the software program will meet the laboratory director’s needs while remaining easy to understand and use. The software program will facilitate communication between the laboratory director,other faculty and students. A preformatted form is used in every stage of the timesheet database registry progress through the system to provide a uniform review process; the location of these form is configurable via the program’s maintenance options.
 
 In short words,**Chocador Asistencia** will permit the school's laboratory director to manage automated timesheets,where he can export corresponding reports related to that data.
 
@@ -63,75 +63,81 @@ The remainder of this document describes the formal requirements and is used to 
 *These sections are cross-referenced by topic; to increase understanding by both groups involved.*
 
 #   2.Overall Description
-This software system is a new attempt to meet new automatize registry of timesheets by making a system where the laboratory director can digitally view, create, modify, and share with other faculty a linear series of the time records such as; 
->1.Student's time in social work. Students can view and self-evaluate their progress, but not modify and will be rewarded with a certificate that mark their progress and achievements of their social hours.
->2.Student's time in the work program.
->2.Faculty use of laboratorys and it's equipments.
+This software program is a new attempt to meet new automatize registry of timesheets by making a system where the laboratory director can digitally view, create, modify, and share with other faculty a linear series of the time records such as; 
+>1.Student's time in social work or work program. Students can view and self-evaluate their progress, but not modify and will be rewarded with a certificate that mark their progress and achievements of their work hours.
+>2.Faculty time use of laboratorys and it's equipments.
 
 ##   2.1 Product Perspective
-1. The software system will be independent and self-contained.
-2. The software system will be coded in programming language C#.
-3. The software system will have a SQL Database.
-4. The software system will have external entities(such as a barcode scanner).
-5. The software system's interface will be easy to follow.
-6. The software system will have backup database protocol to follow.
+1. The software program will be independent and self-contained.
+2. The software program will be coded in programming language C#.
+3. The software program will have a SQL Database.
+4. The software program will have external entities,*such as a barcode scanner*.
+5. The software's program interface will be easy to follow.
+6. The software program will have a backup database protocol to follow.
 
 ##   2.2 Product Functions
 Function	   | Description|
 --- | --- |
-F-1	   |Faculty administrator registering.|
-F-2	   |Student registering.|
-F-3	   |Faculty administrator log-in.|
-F-4	   |Student log-in.|
-F-5	   |Software system connects a student account to a database.|
-F-6	   |Software system creates a line of an overview so a student can access them and view their progress.|
-F-7	   |Software system adds a timesheet to a report.|
-F-8	   |Software system customize the interface of the report that shows the activities using a background and other modifiable graphics.|
-F-9	   |Faculty administrator can view progress of a student.|
-F-10	   |Faculty administrator access reports and associated timesheets.|
-F-11	   |Faculty administrators can share reports with another faculty members.|
-F-12	   |Faculty administrator validates work that student has done before the student is given points.|
-F-13	   |Faculty administrator can modify database by add/drop/delete a registry of student.|
-F-14	   |Software system can browse shared database.|
-F-15	   |Software system can create a copy of a shared database which is then modifiable by the Faculty administrator.|
-F-16	   |Faculty administrator can make a copy of a database they own.|
-F-17	   |System Admins can temporarily change their account privileges to that of a Faculty administrator.|
-F-18	   |System Admins can temporarily change their account privileges to that of a Student.|
+F-1	   |Laboratory director registering.|
+F-2	   |Faculty registering.|
+F-3	   |Student registering.|
+F-4	   |Laboratory director log-in.|
+F-5	   |Faculty log-in.|
+F-6	   |Student log-in.|
+F-7	   |The software program connects a faculty account to a database.|
+F-8	   |The software program connects a student account to a database.|
+F-9	   |The software program creates a line of an overview so a student or faculty can access them and view their progress.|
+F-10	   |The software program adds a timesheet to a report.|
+F-11	   |The software program customize the interface of the report that shows the activities using a background and other modifiable graphics.|
+F-12	   |The laboratory director has administrative privileges of the software program.|
+F-13	   |The laboratory director can view progress of a student.|
+F-14	   |The laboratory director can access reports and associated timesheets.|
+F-15	   |The laboratory director can share reports with another faculty members.|
+F-16     |The laboratory director validates work that student has done before the student is given points.|
+F-17	   |The laboratory director can modify the database registry of student by add/drop/delete.|
+F-18	   |The software program can browse shared database.|
+F-19	   |The software program can create a copy of a shared database which is then modifiable by the laboratory director.|
+F-20	   |The developer of the software program can temporarily change their account privileges to that of a laboratory director.|
+F-21	   |The developer of the software program can temporarily change their account privileges to that of a faculty or a student.|
 
 ##   2.3 User Characteristics
 Actors	   | Description|
 --- | --- |
-Faculty Administrator	   | The Faculty Administrator is the person or people who are using the system to validate student registration, setting up activity reports for a student to access, link activities to outcomes or objectives, add timesheets to support the activities, manage how many points each activity is worth, viewing the progress of students, and a way to change the interface to make it more appealing through the use of custom software.|
-System Administrator	   | The System Administrator can imitate any type of user in the system, can access and modify the database, and has all the privileges of all other user types.|
-Student	   | The Student is the person or people who are using the system to register for an account, access activities, view timesheets linked to an activity, viewing their progress for each activity and overall points.|
+Laboratory director	   | The laboratory director is the person who is using the program to validate student and faculty registration, setting up activity reports, link activities to outcomes or objectives, add timesheets to support the activities, viewing the progress of students work, and activities of faculty usage of the laboratories and equipment.|
+Developer	   | The developer can imitate any type of user in the system, can access and modify the database, and has all the privileges of all other user types, he or she is more like a system administrator.|
+Faculty	   | The faculty is the person or people who are using the program to register for an account, access laboratories and equipment, view timesheets linked to an activity, viewing their progress for each activity and overall take.|
+Student	   | The student is the person or people who are using the program to register for an account, access activities, view timesheets linked to an activity, viewing their progress for each activity and overall points.|
 
 ##   2.4 Constraints
  Constraint	   | Description|
 --- | --- |
- C-1	   | Must use student ID as a unique identifier for a student account.|
- C-2	   | All data shall be stored on SQL Engine.|
- C-3	   | All stored data shall be transferable in case of any manual reset.|
- C-4	   | Software system shall not be restricted by any operating system.|
- C-5	   | Timesheet report shall be in a template showing school logo and administration when exported to a report.|
- C-6	   | Software system shall send a weekly reoprt via E-mail to a faculty administrator.|
+ C-1	   | Must use laboratory directo ID as a unique identifier for administrative privileges of the software program.|
+ C-2	   | Must use faculty ID as a unique identifier for a faculty account.|
+ C-3	   | Must use student ID as a unique identifier for a student account.|
+ C-4	   | All data shall be stored on SQL Engine.|
+ C-5	   | All stored data shall be transferable in case of any manual reset.|
+ C-6	   | The software program shall not be restricted by any operating system.|
+ C-7	   | The timesheet report shall be in a template showing school logo and administration when exported to a report.|
+ C-8	   | The software system shall send a weekly reoprt via E-mail to the laboratory director.|
 
 ##   2.5 Assumptions and Dependencies
  Assumption	   | Description|
  --- | --- |
- A-1	   | Assumed that the software system has no database limit.|
- A-2	   | Assumed that there is no mistake in student registry.|
- A-3	   | Assumed that there is no mistake in data compile when the software system is doing the report.|
- A-4	   | Assumed that all database shall be transferable.|
+ A-1	   | Assumed that the software program has no database limit.|
+ A-2	   | Assumed that there is no mistake in faculty registry.|
+ A-3	   | Assumed that there is no mistake in student registry.|
+ A-4	   | Assumed that there is no mistake in data compile,when the software program is doing the report.|
+ A-5	   | Assumed that all the database shall be transferable.|
  
 Dependencies	   | Description|
  --- | --- |
  D-1	   | Depend that all database shall be transferable.|
- D-2	   | Depend that the software system shall send an E-mail report weekly.|
+ D-2	   | Depend that the software program shall send an E-mail report weekly.|
  D-3	   | Depend that all data shall be inserted correctly.|
  
 #   3.Specific requirements
-This section contains all of the functional and quality requirements of the system. It gives a detailed
-description of the system and all its features. 
+This section contains all of the functional and quality requirements of the program. It gives a detailed
+description of it's features. 
 ## 3.1  User interfaces
 
 <br>
@@ -144,7 +150,7 @@ Figure 1
 </p>
 <br>
 
-1. A first-time user of the system should see the log-in page when he/she opens the application. If the user has not registered, he/she should be able to do that on the log-in page.See Figure 2.
+1. A first-time user of the program should see the log-in page when he/she opens the application. If the user has not registered, he/she should be able to do that on the log-in page.See Figure 2.
 
 <br>
 <p align="center">
@@ -182,28 +188,28 @@ Figure 4
 <br>
 
 ## 3.2 Hardware interfaces
-Since the software system application does not have any designated hardware, it does not have any direct hardware interfaces. The physical system is managed by the application and the hardware connection to the database server is managed by the underlying operating system.
+Since the software program does not have any designated hardware, it does not have any direct hardware interfaces. The physical program is managed by an application and the hardware connection to the database server is managed by the underlying operating system.
 
 ## 3.3 Software interfaces
-The application communicates with the software system in order to get database information. The communication between the database and the application consists of operation concerning both reading and modifying the data, while the communication between the database and the application consists of only reading operations.
+The application communicates with the software program in order to get database information. The communication between the database and the software program consists of operation concerning both reading and modifying the data, while the communication between the database and the application consists of only reading operations.
 
 ## 3.4 Communications interfaces
-The communication between the different parts of the system is important since they depend on each
+The communication between the different parts of the program is important since they depend on each
 other.
 
 Communications Interfaces	   | Description|
  --- | --- |
- CI-1	   | The system shall send a notification to the user to inform them of time approval or rejection.|
- CI-2	   | The system shall send an email message to confirm registration with the system.|
- CI-3	   | The system shall send a notification to inform the user of new email messages, instant messages, or calendar event invitations.|
+ CI-1	   | The program shall send a notification to the user to inform them of time approval or rejection.|
+ CI-2	   | The program shall send a notification to confirm registration with the database.|
+ 
 ## 3.5 Functional Requirements
 Functional Requirements   | <br>| Description|
 --- | --- |--- |
-FR-1	   | Student Add |The system shall let a User that is an administrator with correct permissions who is logged into the system to add students.|
-FR-2	   | Student  Change/Cancel |The system shall let a user that is an administrator with correct permissions who is logged into the system to abandon the process of changing an students (add/delete/edit) without submitting changes.|
-FR-3	   | Student Edit |The system shall let a user that is an administrator with correct permissions who is logged into the system to edit students.|
-FR-4	   | Student Remove |The system shall let a user that is an administrator with correct permissions who is logged into the system to remove students.|
-FR-5	   | Student Review |The system shall let a user that is an administrator with correct permissions who is logged into the system to review students.|
+FR-1	   | Faculty/Student Add |The software program shall let a User that is an administrator with correct permissions who is logged into the program to add faculty or students.|
+FR-2	   | Faculty/Student  Change/Cancel |The software program shall let a user that is an administrator with correct permissions who is logged into the program to abandon the process of changing information of a faculty or student (add/delete/edit) without submitting changes.|
+FR-3	   | Faculty/Student Edit |The program shall let a user that is an administrator with correct permissions who is logged into the program to edit faculty or student information.|
+FR-4	   | Faculty/Student Remove |The program shall let a user that is an administrator with correct permissions who is logged into the program to remove  faculty or students.|
+FR-5	   | Faculty/Student Review |The system shall let a user that is an administrator with correct permissions who is logged into the program to review faculty and students.|
 
 ## 3.6 Nonfunctional Requirements
 Nonfunctional Requirements	   | Description|
@@ -256,31 +262,31 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
 
 `Use Case 2`	   |  <br>|  <br>|  
  --- | --- | --- | 
-  <br>|`Primary Actor`	   | Administrator/Student|
+  <br>|`Primary Actor`	   | Administrator/Faculty/Student|
   <br>|`Pre-condition`	   | Correct installation of **Chocador Asistencia** program.|
-  <br>|`Main Scenario`	   | Registry of students|
+  <br>|`Main Scenario`	   | Registry of faculty and students|
   <br>| **Setp 1** | Click **Registrar** in the initial window. |
   <br>| **Setp 2** | Registration window will open. |
   <br>| **Setp 3** | Fill in requirements, correctly **Student ID restricted to  6 digits**. |
-  <br>| **Setp 4** | After completing the requirements, click on **Registrar**. |
+  <br>| **Setp 4** | After completing the query, click on **Registrar**. |
   <br>| **Setp 4** | If the registration was made correctly, it is saved and a window appears saying, `Se registro correctamente`> Click **OK** to continue. |
   
  >Use Case related to **Log in and log out**.
 
 `Use Case 3`	   |  <br>|  <br>|  
  --- | --- | --- | 
-  <br>|`Primary Actor`	   | Student|
-  <br>|`Pre-condition`	   | Correct registry of students.|
-  <br>|`Main Scenario`	   | Consult of registry of students|
+  <br>|`Primary Actor`	   | Faculty/Student|
+  <br>|`Pre-condition`	   | Correct registry of faculty or students.|
+  <br>|`Main Scenario`	   | Log in and log out of faculty or students|
   <br>| **Setp 1** | Login. |
-  <br>| **Setp 2** | Scan student ID or enter ID manually. |
-  <br>| **Setp 3** | If student ID is scanned, it will be automatically registered and if it is entered manually, click on **Checar**. |
-  <br>| **Setp 4** | If the student ID was entered correctly, a following window will appear showing `[ENTRADA]` together with the time of the last check in registry. |
+  <br>| **Setp 2** | Scan faculty or student ID or enter ID manually. |
+  <br>| **Setp 3** | If faculty or student ID is scanned, it will be automatically registered and if it is entered manually, click on **Checar**. |
+  <br>| **Setp 4** | If the faculty or student ID was entered correctly, a following window will appear showing `[ENTRADA]` together with the time of the last check in registry. |
   <br>| **Setp 5** | Log Out. |
-  <br>| **Setp 6** | Scan student ID or enter ID manually. |
-  <br>| **Setp 7** | If student ID is scanned, it will be automatically registered and if it is entered manually, click on **Checar**. |
-  <br>| **Setp 8** | If the student ID was entered correctly, a following window will appear showing `[SALIDA]` together with the time of the last check in registry. |
-  <br>| **Note** | If student ID is not registered or entered correctly a window will appear saying, `ERROR: MATRICULA NO ENCONTRADA`. |
+  <br>| **Setp 6** | Scan faculty or student ID or enter ID manually. |
+  <br>| **Setp 7** | If faculty or student ID is scanned, it will be automatically registered and if it is entered manually, click on **Checar**. |
+  <br>| **Setp 8** | If the faculty or student ID was entered correctly, a following window will appear showing `[SALIDA]` together with the time of the last check in registry. |
+  <br>| **Note** | If faculty or student ID is not registered or entered correctly a window will appear saying, `ERROR: MATRICULA NO ENCONTRADA`. |
   
  >Use Case related to **Consult**.
 
@@ -288,7 +294,7 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
  --- | --- | --- | 
   <br>|`Primary Actor`	   | Administrator|
   <br>|`Pre-condition`	   | Correct registry of students and their registry of log in and log out.|
-  <br>|`Main Scenario`	   | Consult of registry of students|
+  <br>|`Main Scenario`	   | Consult of registry of faculty or students|
   <br>| **Setp 1** | To consult records click on **Consultar**  in the initial window. |
   <br>| **Setp 2** | Records query window will open. |
   <br>| <br> | `Search for records by Date.` |
@@ -308,8 +314,8 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
 `Use Case 5`	   |  <br>|  <br>|  
  --- | --- | --- | 
   <br>|`Primary Actor`	   | Administrator|
-  <br>|`Pre-condition`	   | Correct consult of registrys of students.|
-  <br>|`Main Scenario`	   | Export of registry of students|
+  <br>|`Pre-condition`	   | Correct consult of registrys of faculty or students.|
+  <br>|`Main Scenario`	   | Export of registry of faculty or students|
   <br>| **Setp 1** | To export records click on **Exportar a Excel**. |
   <br>| **Setp 2** | It will take a few seconds to process. |
   <br>| **Setp 3** | A window asking for the save location of the exported record, will appear. |
@@ -323,7 +329,7 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
 `Use Case 6`	   |  <br>|  <br>|  
  --- | --- | --- | 
   <br>|`Primary Actor`	   | Administrator|
-  <br>|`Pre-condition`	   | Correct exports of registrys of students|
+  <br>|`Pre-condition`	   | Correct exports of registrys of faculty or students|
   <br>|`Main Scenario`	   | Export Excel File|
   <br>| **Setp 1** | The export of the file in Excel appears in wherever location it is saved as such, with name `Reporte` and day of that is being exported. |
   <br>| **Setp 2** | The file exported in Excel is created with a default template for the school. |
@@ -333,14 +339,14 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
 `Use Case 7`	   |  <br>|  <br>|  
  --- | --- | --- | 
   <br>|`Primary Actor`	   | Administrator|
-  <br>|`Pre-condition`	   | Correct registry of student **ID**.|
-  <br>|`Main Scenario`	   | Modification of registry of students|
+  <br>|`Pre-condition`	   | Correct registry of faculty or student **ID**.|
+  <br>|`Main Scenario`	   | Modification of registry of faculty or students|
   <br>| **Setp 1** | To be able to modify the registration of a student> Click on Modify. **Only Administrator can modify.** |
-  <br>| **Setp 2** | A window will opened to modify the student registry. |
+  <br>| **Setp 2** | A window will opened to modify the faculty or student registry. |
   <br>| **Setp 3** | To be able to **Modify** a record> Enter the student ID that you want to modify> Click on **Buscar**. |
-  <br>| **Setp 4** | Registration of the student with that student ID will appear> Correct any incorrect aspect> To save any modification click on **Modificar**. |
+  <br>| **Setp 4** | Registration of the faculty or student with that faculty or student ID will appear> Correct any incorrect aspect> To save any modification click on **Modificar**. |
   <br>| **Setp 5** | If the modification was made correctly, a window appears saying `Se modefico el estudiante correctamente`. |
-  <br>| **Note** | If you want to **Delete** the registration of a certain student with certain student ID> Click on **Eliminar**. |
+  <br>| **Note** | If you want to **Delete** the registration of a certain faculty or student with certain faculty or student ID> Click on **Eliminar**. |
    
 >Use Case related to **Database Backup**.
 
