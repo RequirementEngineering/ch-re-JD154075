@@ -113,6 +113,7 @@ Developer	   | The developer can imitate any type of user in the system, can acc
 Faculty	   | The faculty is the person or people who are using the program to register for an account, access laboratories and equipment, view timesheets linked to an activity, viewing their progress for each activity and overall take.|
 Student	   | The student is the person or people who are using the program to register for an account, access activities, view timesheets linked to an activity, viewing their progress for each activity and overall points.|
 Service Administrator	   | The service administrator is the person or people,who have unrestricted access to service configuration, can perform all service administrative tasks and all operations in managed domain of the school's electrical department.|
+Local Server	   | The serve will administrarte the database registry .|
 
 ##   2.4 Constraints
  Constraint	   | Description|
