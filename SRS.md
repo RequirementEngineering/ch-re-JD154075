@@ -21,7 +21,7 @@ Prepared by Juan Mata</br>
 
 
 #   1. Introduction
-This document is meant to portray the student's social service database registry project **SSSDR** or **Chocador Asistencia**, (*final name pending*). It explains the purpose of the system's program; such as it's overall description, it's dos and don'ts, the constraints under which it must operate,it's interfaces and and it's countenance after it's development. 
+This document is meant to portray the student's social service database registry project **Chocador Asistencia**, (*final name pending*). It explains the purpose of the system's program; such as it's overall description, it's dos and don'ts, the constraints under which it must operate,it's interfaces and and it's countenance after it's development. 
 This document is intended for both the laboratory service administrator that oversee the social work program and the developers of the system.
 
 ##    1.1 Purpose
@@ -31,13 +31,11 @@ This document is intended for both the laboratory service administrator that ove
 ##    1.2 Scope
 This software system will be a **local server** system for a **standalone machine** of the school's laboratory service administrator. This system will be designed to maximize the administrator’s productivity by providing tools to assist in automating the database registry review, which would otherwise have to be performed manually. By maximizing the administrator’s work efficiency and production, the system will meet the administrator’s needs while remaining easy to understand and use. The software will facilitate communication between faculty administrators and students via E-Mail. Preformatted reply forms are used in every stage of the database registry progress through the system to provide a uniform review process; the location of these forms is configurable via the application’s maintenance options. The system also contains a relational database containing a list of timesheets,faculty administrators, and students.
 
-In short words,the **SSSDR** or **Chocador Asistencia** ,will permit the school's laboratory service administrator to manage automated timesheets,where he can export corresponding reports related to that data. 
-    
+In short words,**Chocador Asistencia** will permit the school's laboratory service administrator to manage automated timesheets,where he can export corresponding reports related to that data. 
 
 ##    1.3 Definitions, acronyms, and abbreviations
 Terms | Definition | 
 --- | --- | 
-*SSSRD* | `Students Social Service Database Registry` | 
 *Laboratory Service Administrator* |  `The person that is in charge of the laboratory's management and it's social service program.` | 
 *Students* | `Students that are conducting their social work.` |
 *Local Server* |  `Server that is running in a local or a mounted folder and whose document root is NOT the parent of the project root.` |
@@ -50,7 +48,6 @@ Terms | Definition |
 *C#* | `Pronounced C sharp, is a general-purpose, multi-paradigm programming language encompassing strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.` |
 *F-#* | `Functions` |
 *C-#* | `Constraints` |
-*OS* | `Operating System` |
 *A-#* | `Assumptions` |
 *D-#* | `Dependencies` |
 *CI-#* | `Communications Interfaces` |
@@ -74,7 +71,7 @@ This software system is a new attempt to meet new automatize registry of student
 3. The software system will have a SQL Database.
 4. The software system will have external entities(such as a barcode scanner).
 5. The software system's interface will be easy to follow.
-6. The software system will have backup protocol to follow.
+6. The software system will have backup database protocol to follow.
 
 ##   2.2 Product Functions
 Function	   | Description|
@@ -111,7 +108,7 @@ Student	   | The Student is the person or people who are using the system to reg
  C-1	   | Must use student ID as a unique identifier for a student account.|
  C-2	   | All data shall be stored on SQL Engine.|
  C-3	   | All stored data shall be transferable in case of any manual reset.|
- C-4	   | Software system shall not be restricted by any OS.|
+ C-4	   | Software system shall not be restricted by any operating system.|
  C-5	   | Timesheet report shall be in a template showing school logo and administration when exported to a report.|
  C-6	   | Software system shall send a weekly reoprt via E-mail to a faculty administrator.|
 
