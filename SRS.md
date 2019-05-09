@@ -127,6 +127,7 @@ Service Administrator	   | The service administrator is the person or people,who
  C-8	   | The timesheet report shall be in a template showing school logo and administration when exported to a report.|
  C-9	   | The software program shall send a weekly reoprt via E-mail to the laboratory director.|
  C-10	   | The software program should always be running.|
+ C-11	   | No budget for the software program.|
 
 ##   2.5 Assumptions and Dependencies
  Assumption	   | Description|
@@ -402,7 +403,7 @@ Line Number|  Actors	   |  <br>|
   Line 9|  Developers: |What is the domain we need to understand?	   |
   Line 10|  `Laboratory Director:` |`Database registry and it's exportation.`	   |
   Line 11|  Developers: |What are the specifics feature will it need to have?	   |
-  Line 12|  `Laboratory Director:` |`I also need it to register that data with a barcode scanner.I also need it to produce a weekly report sent to my email of who sing in,if not posible. I just need it to produce report that can be selected either by date (with in a date range),student ID or name and or all files in that database, to be exported to an excel file.`	   |
+  Line 12|  `Laboratory Director:` |`I also need it to register that data with a barcode scanner.I also need it to produce a weekly report sent to my email of who sing in,if not posible. I just need it to produce report that can be selected either by date (with in a date range),student ID or name and or all files in that database, I also need it to be shareable on a tablet for portability,if possible.`	   |
   Line 13|  Developers: |Which platforms do you need it to be available on?	   |
   Line 14|  `Laboratory Director:` |`None in specification`	   |
   Line 16|  Developers: |What other parties integrate with the software program?   |
@@ -410,3 +411,18 @@ Line Number|  Actors	   |  <br>|
   Line 18|  Developers: |What’s the timeline for product development?   |
   Line 19|  `Laboratory Director:` |`At the end of the semester.`	   |
 
+>Second Meeting Interview: Type: **Conversation**
+
+Line Number|  Actors	   |  <br>|  
+ --- | --- | --- | 
+  Line 1|  Developers: |Hello, Ok so what we have to show for you, is the software program's interface and an SQL database, wich neither of them are interconnected  yet.	   |
+  Line 2|  `Laboratory Director:` |`Ok, I like it.`	   |
+  Line 3|  Developers: |We were exchanging ideas on how to do it, and we both concluded that this program has to be on a local server, since an online server is not the best option for what the program is being asked to do. It would be depend on third parties.There is also the problem that we would have to pay for the server, and since this program is for the school, it is not possible.
+There are free server, but there may be the occasion that the online server falls and that's independable.
+So we do not think we can give you a software program that can be used on a tablet.	   |
+  Line 4|  `Laboratory Director:` |`Oh Ok, I understand.So a better idea would be, making the software program installable on a stand alone machine,which would be my computer, do you think you can make that database sharable with its own program on another stand alone machine ? `	   |
+  Line 5|  Developers: |We think it's possible,will se what we can do .	   |
+  Line 6|  Developers: |Ok,That's all we got for now, to show you.	   |
+  Line 7|  `Laboratory Director:` |`Ok guys, I like what you have so far, keep up the good work .`	   |
+  Line 8|  Developers: |Ok,thank you,see you next time.	   |
+  Line 9|  `Laboratory Director:` |`Ok then, till then.`	   |
