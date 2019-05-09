@@ -21,17 +21,15 @@ Prepared by Juan Mata</br>
 
 
 #   1. Introduction
-This document is meant to portray the student's social service database registry project **Chocador Asistencia**, (*final name pending*). It explains the purpose of the system's program; such as it's overall description, it's dos and don'ts, the constraints under which it must operate,it's interfaces and and it's countenance after it's development. 
+##    1.1 Purpose
+This document is meant to portray the student's social service database registry project named as **Chocador Asistencia**. It explains the purpose of the system's program; such as it's overall description, it's dos and don'ts, the constraints under which it must operate,it's interface and it's actions after it's development. 
 This document is intended for both the laboratory service administrator that oversee the social work program and the developers of the system.
 
-##    1.1 Purpose
-
-
-     
 ##    1.2 Scope
-This software system will be a **local server** system for a **standalone machine** of the school's laboratory service administrator. This system will be designed to maximize the administrator’s productivity by providing tools to assist in automating the database registry review, which would otherwise have to be performed manually. By maximizing the administrator’s work efficiency and production, the system will meet the administrator’s needs while remaining easy to understand and use. The software will facilitate communication between faculty administrators and students via E-Mail. Preformatted reply forms are used in every stage of the database registry progress through the system to provide a uniform review process; the location of these forms is configurable via the application’s maintenance options. The system also contains a relational database containing a list of timesheets,faculty administrators, and students.
+This software system will be a **local server** system for a **standalone machine** for the school's laboratory service administrator. 
+This system will be designed to maximize the laboratory service administrator’s productivity by providing tools to assist in automating the database registry, which would otherwise have to be performed manually. By maximizing the administrator’s work efficiency and production, the system will meet the laboratory service administrator’s needs while remaining easy to understand and use. The software will facilitate communication between faculty administrators and students via E-Mail. Preformatted reply forms are used in every stage of the database registry progress through the system to provide a uniform review process; the location of these forms is configurable via the application’s maintenance options. The system also contains a relational database containing a list of timesheets,faculty administrators, and students.
 
-In short words,**Chocador Asistencia** will permit the school's laboratory service administrator to manage automated timesheets,where he can export corresponding reports related to that data. 
+In short words,**Chocador Asistencia** will permit the school's laboratory service administrator to manage automated timesheets,where he can export corresponding reports related to that data.
 
 ##    1.3 Definitions, acronyms, and abbreviations
 Terms | Definition | 
