@@ -406,7 +406,7 @@ Line Number|  Actors	   |  <br>|
   Line 11|  Developers: |What are the specifics feature will it need to have?	   |
   Line 12|  `Laboratory Director:` |`I also need it to register that data with a barcode scanner.I also need it to produce a weekly report sent to my email of who sing in,if not posible. I just need it to produce report that can be selected either by date (with in a date range),student ID or name and or all files in that database, I also need it to be shareable on a tablet for portability,if possible.`	   |
   Line 13|  Developers: |Which platforms do you need it to be available on?	   |
-  Line 14|  `Laboratory Director:` |`None in specification`	   |
+  Line 14|  `Laboratory Director:` |`None in specification.`	   |
   Line 16|  Developers: |What other parties integrate with the software program?   |
   Line 17|  `Laboratory Director:` |`Barcode scanner and excel for exportation.`	   |
   Line 18|  Developers: |What’s the timeline for product development?   |
