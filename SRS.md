@@ -433,4 +433,12 @@ Line Number|  Actors	   |  <br>|
 Line Number|  Actors	   |  <br>|  
  --- | --- | --- | 
   Line 1|  Developers: |Hello again, Ok so what we have to show for you today, is that the software program's interface and an SQL database are now interconnected. You can register and consult through the interface and the call to the registry in the SQL database will be made.	   |
-  Line 2|  `Laboratory Director:` |`Ok.`	   |
+  Line 2|  `Laboratory Director:` |`Ok, can we test it`	   |
+  Line 3|  Developers: |Of course	   |
+  Line 4|  `Laboratory Director:` |`I like what I see`	   |
+  Line 5|  `Laboratory Director:` |`Can you add an option where the registry can be modifiable through the interfce.`	   |
+  Line 6|  Developers: |Do you jus want to modify the registrations in the registry or what else do you want it to have.  	   |
+  Line 7|  `Laboratory Director:` |`What I would have like it to have, is a delete option aswell, the reason being is that their are students and faculty that either they finish their work and don't have to come back or for what ever reason just have to be deleted. `	   |
+   Line 8|  `Laboratory Director:` |`I would also like for the program to have an option or a button to export the report in a excel file `	   |
+  Line 9|  Developers: |Of course we can do that, wil the exported file in excel have a templet with the school logo?	   |
+  
