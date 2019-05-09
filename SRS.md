@@ -65,7 +65,7 @@ The remainder of this document describes the formal requirements and is used to 
 #   2.Overall Description
 This software program is a new attempt to meet new automatize registry of timesheets by making a system where the laboratory director can digitally view, create, modify, and share with other faculty a linear series of the time records such as; 
 >1.Student's time in social work or work program. Students can view and self-evaluate their progress, but not modify and will be rewarded with a certificate that mark their progress and achievements of their work hours.<br>
->2.Faculty time use of laboratorys and it's equipments.
+>2.Faculty time usage of laboratorys and it's equipments.
 
 ##   2.1 Product Perspective
 1. The software program will be independent and self-contained.
