@@ -23,7 +23,7 @@ Prepared by Juan Mata</br>
 #   1. Introduction
 ##    1.1 Purpose
 This document is meant to portray the laboratory's automatized timesheet database registry project named as **Chocador Asistencia**. By explaining it's purpose; such as it's overall description, it's dos and don'ts,it's interface and it's actions after it's development. 
-This document is intended for both the **Laboratory Director** that oversee the work program and the **Developers** of the system.
+This document is intended for both the **Laboratory Director** that oversee the work program and the **Developers** of the software program.
 
 ##    1.2 Scope
 This software program will be a **local server** system for a **standalone machine** for the school's laboratory director. 
@@ -35,6 +35,7 @@ In short words,**Chocador Asistencia** will permit the school's laboratory direc
 Terms | Definition | 
 --- | --- | 
 *Laboratory director* |  `The person that is in charge of the laboratory's management and it's programs.` | 
+*Service Administrators* |  `Users that have unrestricted access to service configuration, can perform all service administrative tasks and all operations in Managed Domains.` | 
 *Faculty* |  `The body of teachers and administrators at a school.` | 
 *Students* | `Students that are conducting their social work.` |
 *Developers* | `The people that develop the software program.` |
@@ -64,7 +65,7 @@ The remainder of this document describes the formal requirements and is used to 
 
 #   2.Overall Description
 This software program is a new attempt to meet new automatize registry of timesheets by making a system where the laboratory director can digitally view, create, modify, and share with other faculty a linear series of the time records such as; 
->1.Student's time in social work or work program. Students can view and self-evaluate their progress, but not modify and will be rewarded with a certificate that mark their progress and achievements of their work hours.<br>
+>1.Student's time in work program or social work.*Students can view and self-evaluate their progress, but not modify and will be rewarded with a certificate that mark their progress and achievements of their work hours*.<br>
 >2.Faculty time usage of laboratorys and it's equipments.
 
 ##   2.1 Product Perspective
@@ -74,6 +75,7 @@ This software program is a new attempt to meet new automatize registry of timesh
 4. The software program will have external entities,*such as a barcode scanner*.
 5. The software's program interface will be easy to follow.
 6. The software program will have a backup database protocol to follow.
+7 The software program will have a security protocol to follow when attempting to modify information in the database registry.
 
 ##   2.2 Product Functions
 Function	   | Description|
@@ -103,22 +105,25 @@ F-21	   |The developer of the software program can temporarily change their acco
 ##   2.3 User Characteristics
 Actors	   | Description|
 --- | --- |
-Laboratory director	   | The laboratory director is the person who is using the program to validate student and faculty registration, setting up activity reports, link activities to outcomes or objectives, add timesheets to support the activities, viewing the progress of students work, and activities of faculty usage of the laboratories and equipment.|
+Laboratory Director	   | The laboratory director is the person who is using the program to validate student and faculty registration, setting up activity reports, link activities to outcomes or objectives, add timesheets to support the activities, viewing the progress of students work, and activities of faculty usage of the laboratories and equipment.|
 Developer	   | The developer can imitate any type of user in the system, can access and modify the database, and has all the privileges of all other user types, he or she is more like a system administrator.|
 Faculty	   | The faculty is the person or people who are using the program to register for an account, access laboratories and equipment, view timesheets linked to an activity, viewing their progress for each activity and overall take.|
 Student	   | The student is the person or people who are using the program to register for an account, access activities, view timesheets linked to an activity, viewing their progress for each activity and overall points.|
+Service Administrators	   | The service administrators is the person or people,who have unrestricted access to service configuration, can perform all service administrative tasks and all operations in managed domain of the school's electrical department.|
 
 ##   2.4 Constraints
  Constraint	   | Description|
 --- | --- |
- C-1	   | Must use laboratory directo ID as a unique identifier for administrative privileges of the software program.|
- C-2	   | Must use faculty ID as a unique identifier for a faculty account.|
- C-3	   | Must use student ID as a unique identifier for a student account.|
- C-4	   | All data shall be stored on SQL Engine.|
- C-5	   | All stored data shall be transferable in case of any manual reset.|
- C-6	   | The software program shall not be restricted by any operating system.|
- C-7	   | The timesheet report shall be in a template showing school logo and administration when exported to a report.|
- C-8	   | The software system shall send a weekly reoprt via E-mail to the laboratory director.|
+ C-1	   | Must use a service administrator ID as a unique identifier for the installation of the software program.|
+ C-2	   | Must use laboratory directo ID as a unique identifier for administrative privileges of the software program.|
+ C-3	   | Must use faculty ID as a unique identifier for a faculty account.|
+ C-4	   | Must use student ID as a unique identifier for a student account.|
+ C-5	   | All data shall be stored on SQL Engine.|
+ C-6	   | All stored data shall be transferable in case of any manual reset.|
+ C-7	   | The software program shall not be restricted by any operating system.|
+ C-8	   | The timesheet report shall be in a template showing school logo and administration when exported to a report.|
+ C-9	   | The software program shall send a weekly reoprt via E-mail to the laboratory director.|
+ C-10	   | The software program should always be running.|
 
 ##   2.5 Assumptions and Dependencies
  Assumption	   | Description|
@@ -128,12 +133,17 @@ Student	   | The student is the person or people who are using the program to re
  A-3	   | Assumed that there is no mistake in student registry.|
  A-4	   | Assumed that there is no mistake in data compile,when the software program is doing the report.|
  A-5	   | Assumed that all the database shall be transferable.|
+ A-6	   | Assumed that the software program is running when making a login.|
+ A-6	   | Assumed that the login section of the software's program registry, logs in correctly when using a barcode scanner.|
  
 Dependencies	   | Description|
  --- | --- |
  D-1	   | Depend that all database shall be transferable.|
  D-2	   | Depend that the software program shall send an E-mail report weekly.|
  D-3	   | Depend that all data shall be inserted correctly.|
+ D-4	   | Depend that the sotware program is running when making a login.|
+ A-5	   | Depend that the login section of the software's program registry, logs in correctly when using a barcode scanner.|
+ 
  
 #   3.Specific requirements
 This section contains all of the functional and quality requirements of the program. It gives a detailed
@@ -188,7 +198,7 @@ Figure 4
 <br>
 
 ## 3.2 Hardware interfaces
-Since the software program does not have any designated hardware, it does not have any direct hardware interfaces. The physical program is managed by an application and the hardware connection to the database server is managed by the underlying operating system.
+The only designated hardware for this software program would be a barcode scanner and a physical keyboard.The software program itself does not have any direct hardware interfaces. The physical program is managed by an application and the hardware connection to the database server is managed by the underlying operating system.
 
 ## 3.3 Software interfaces
 The application communicates with the software program in order to get database information. The communication between the database and the software program consists of operation concerning both reading and modifying the data, while the communication between the database and the application consists of only reading operations.
@@ -199,8 +209,9 @@ other.
 
 Communications Interfaces	   | Description|
  --- | --- |
- CI-1	   | The program shall send a notification to the user to inform them of time approval or rejection.|
- CI-2	   | The program shall send a notification to confirm registration with the database.|
+ CI-1	   | The software program shall send a notification to the user to inform them of time approval or rejection.|
+ CI-2	   | The software program shall send a notification to confirm registration with the database.|
+ CI-3	   | The software program shall read correctly the barcode scanner,while writing.|
  
 ## 3.5 Functional Requirements
 Functional Requirements   | <br>| Description|
@@ -223,9 +234,10 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
 
 `Use Case 1`	   |  <br>|  <br>|  
  --- | --- | --- | 
-  <br>|`Primary Actor`	   | Administrator|
-  <br>|`Pre-condition`	   | Have .zip file of the software at hand and do installation of programs in order.|
+  <br>|`Primary Actor`	   | Service Administrators/Laboratory Director|
+  <br>|`Pre-condition`	   | Have administrative permission to download the software program, have the .zip file of the software program at hand and do installation of programs in the .zip file in order.|
   <br>|`Main Scenario`	   | Installation|
+  <br>| **Note** |  `Need to have a service administrator's ID, for installation of the software program.` |
   <br>| **Setp 1** | Install **SQL Server 2016 LocalDB**, which is located on the installation file  **SetupChecador.zip**, named as: `SqlLocalDB.msi` |
    <br>| **Setp 2** |  Before starting installation, `read all the contents of the installation window`. |
    <br>| **Setp 3** |  Having read all the content, click **Siguiente**. |
@@ -262,7 +274,7 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
 
 `Use Case 2`	   |  <br>|  <br>|  
  --- | --- | --- | 
-  <br>|`Primary Actor`	   | Administrator/Faculty/Student|
+  <br>|`Primary Actor`	   | Laboratory Director/Faculty/Student|
   <br>|`Pre-condition`	   | Correct installation of **Chocador Asistencia** program.|
   <br>|`Main Scenario`	   | Registry of faculty and students|
   <br>| **Setp 1** | Click **Registrar** in the initial window. |
@@ -292,7 +304,7 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
 
 `Use Case 4`	   |  <br>|  <br>|  
  --- | --- | --- | 
-  <br>|`Primary Actor`	   | Administrator|
+  <br>|`Primary Actor`	   | Laboratory Director|
   <br>|`Pre-condition`	   | Correct registry of students and their registry of log in and log out.|
   <br>|`Main Scenario`	   | Consult of registry of faculty or students|
   <br>| **Setp 1** | To consult records click on **Consultar**  in the initial window. |
@@ -313,7 +325,7 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
 
 `Use Case 5`	   |  <br>|  <br>|  
  --- | --- | --- | 
-  <br>|`Primary Actor`	   | Administrator|
+  <br>|`Primary Actor`	   | Laboratory Director |
   <br>|`Pre-condition`	   | Correct consult of registrys of faculty or students.|
   <br>|`Main Scenario`	   | Export of registry of faculty or students|
   <br>| **Setp 1** | To export records click on **Exportar a Excel**. |
@@ -328,7 +340,7 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
 
 `Use Case 6`	   |  <br>|  <br>|  
  --- | --- | --- | 
-  <br>|`Primary Actor`	   | Administrator|
+  <br>|`Primary Actor`	   | Laboratory Director|
   <br>|`Pre-condition`	   | Correct exports of registrys of faculty or students|
   <br>|`Main Scenario`	   | Export Excel File|
   <br>| **Setp 1** | The export of the file in Excel appears in wherever location it is saved as such, with name `Reporte` and day of that is being exported. |
@@ -338,8 +350,8 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
 
 `Use Case 7`	   |  <br>|  <br>|  
  --- | --- | --- | 
-  <br>|`Primary Actor`	   | Administrator|
-  <br>|`Pre-condition`	   | Correct registry of faculty or student **ID**.|
+  <br>|`Primary Actor`	   | Laboratory Director|
+  <br>|`Pre-condition`	   | Have laboratory's director unique ID, correct registry of faculty or student **ID**.|
   <br>|`Main Scenario`	   | Modification of registry of faculty or students|
   <br>| **Setp 1** | To be able to modify the registration of a student> Click on Modify. **Only Administrator can modify.** |
   <br>| **Setp 2** | A window will opened to modify the faculty or student registry. |
@@ -352,7 +364,7 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
 
 `Use Case 8`	   |  <br>|  <br>|  
  --- | --- | --- | 
-  <br>|`Primary Actor`	   | Administrator|
+  <br>|`Primary Actor`	   | Laboratory Director|
   <br>|`Pre-condition`	   | None.|
   <br>|`Main Scenario`	   | **Chocador Asistencia** program database backup|
   <br>| **Note** | In case you have to remove the program.**It is recommended to save the database** to continue using it, when the program is reinstalled.  |
@@ -364,10 +376,14 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
 
 `Use Case 9`	   |  <br>|  <br>|  
  --- | --- | --- | 
-  <br>|`Primary Actor`	   | Administrator|
+  <br>|`Primary Actor`	   | Laboratory Director/Service Administrators|
   <br>|`Pre-condition`	   | Database Backup.|
   <br>|`Main Scenario`	   | Uninstalling **Chocador Asistencia** program|
   <br>| **Setp 1** | Go to Control Panel> Programs> Uninstall Program> Search application: `Micosoft SQL Server 2016 LocalDB` and `Checador Asistencia `  |
   <br>| **Setp 2** | Select the programs one by one and click on **Uninstall**.  |
   
 #   4.Supporting Information
+## 4.1 Elicitation Process
+<br>	   |  First Day Interview|  <br>|  
+ --- | --- | --- | 
+  Type of Interview |`Q&A`	   | Actors|
