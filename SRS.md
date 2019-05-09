@@ -441,4 +441,9 @@ Line Number|  Actors	   |  <br>|
   Line 7|  `Laboratory Director:` |`What I would have like it to have, is a delete option aswell, the reason being is that their are students and faculty that either they finish their work and don't have to come back or for what ever reason just have to be deleted. `	   |
    Line 8|  `Laboratory Director:` |`I would also like for the program to have an option or a button to export the report in a excel file `	   |
   Line 9|  Developers: |Of course we can do that, wil the exported file in excel have a templet with the school logo?	   |
+  Line 10|  `Laboratory Director:` |`Yes, I would like that, it would also have a sing off section to make the report oficial `	   |
+  Line 11|  Developers: |Ok, we can do that.Will give you a new revision next time 	   |
+  Line 12|  `Laboratory Director:` |`Yes,ok guys I will see you next time. `	   |
+  Line 13|  Developers: |Ok,thank you. 	   |
+ 
   
