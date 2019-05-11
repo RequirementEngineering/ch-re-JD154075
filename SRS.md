@@ -78,9 +78,9 @@ This software program is a new attempt to meet new automatize registry of timesh
 1. The software program will be independent and self-contained.
 2. The software program will be coded in programming language C#.
 3. The software program will have a local SQL Database.
-4. The software program will have external entities,*such as a barcode scanner*.
+4. The software program will have external entities,*such as a barcode scanner and keyboard*.
 5. The software's program interface will be easy to follow.
-6. The software program will have a backup database protocol to follow.
+6. The software program will have a backup database protocol to follow.<br>
 7 The software program will have a security protocol to follow when attempting to modify information in the database registry.
 
 ##   2.2 Product Functions
