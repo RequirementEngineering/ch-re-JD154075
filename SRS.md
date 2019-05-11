@@ -26,7 +26,7 @@ This document is meant to portray the laboratory's automatized timesheet databas
 This document is intended for both the **Laboratory Director** that oversee the work program and the **Developers** of the software program.
 
 ##    1.2 Scope
-This software program will be a **local server** system for a **standalone machine** for the school's laboratory director. 
+This software program will be a **local database** system for a **standalone machine** for the school's laboratory director. 
 This software program will be designed to maximize the laboratory director’s productivity by providing tools to assist in automating the timesheet database registry, which would otherwise have to be performed manually. By maximizing the laboratory director’s work efficiency and production, the software program will meet the laboratory director’s needs while remaining easy to understand and use. The software program will facilitate communication between the laboratory director,other faculty and students. A preformatted form is used in every stage of the timesheet database registry progress through the system to provide a uniform review process; the location of these form is configurable via the program’s maintenance options.
 
 In short words,**Chocador Asistencia** will permit the school's laboratory director to manage automated timesheets,where he can export corresponding reports related to that data.
@@ -39,14 +39,15 @@ Terms | Definition |
 *Faculty* |  `The body of teachers and administrators at a school.` | 
 *Students* | `Students that are conducting their social work.` |
 *Developers* | `The people that develop the software program.` |
-*Local Server* |  `Server that is running in a local or a mounted folder and whose document root is NOT the parent of the project root.` |
+*Database* |  `Collection of all the information monitored by this system.` |
+*Local Database* |  `A local database is one that is local to your application only.` |
 *Standalone Machine* | `Device is any mechanism or system that can perform its function without the need of another device, computer, or connection.` |
 *Timesheets* |  `Detailed records showing the amount of time spent on each program or student.` |
-*Database* |  `Collection of all the information monitored by this system.` |
 *Registry* | `Place where registers or records are kept.` | 
 *IEEE* | `Institute of Electrical and Electronic Engineers` | 
 *Programming Language* | `A vocabulary and set of grammatical rules for instructing a computer or computing device to perform specific tasks.` |
 *C#* | `Pronounced C sharp, is a general-purpose, multi-paradigm programming language encompassing strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.` |
+*SQL* | `A domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system.` |
 *F-#* | `Functions` |
 *C-#* | `Constraints` |
 *A-#* | `Assumptions` |
@@ -74,7 +75,7 @@ This software program is a new attempt to meet new automatize registry of timesh
 ##   2.1 Product Perspective
 1. The software program will be independent and self-contained.
 2. The software program will be coded in programming language C#.
-3. The software program will have a SQL Database.
+3. The software program will have a local SQL Database.
 4. The software program will have external entities,*such as a barcode scanner*.
 5. The software's program interface will be easy to follow.
 6. The software program will have a backup database protocol to follow.
@@ -113,7 +114,7 @@ Developer	   | The developer can imitate any type of user in the system, can acc
 Faculty	   | The faculty is the person or people who are using the program to register for an account, access laboratories and equipment, view timesheets linked to an activity, viewing their progress for each activity and overall take.|
 Student	   | The student is the person or people who are using the program to register for an account, access activities, view timesheets linked to an activity, viewing their progress for each activity and overall points.|
 Service Administrator	   | The service administrator is the person or people,who have unrestricted access to service configuration, can perform all service administrative tasks and all operations in managed domain of the school's electrical department.|
-Local Server	   | The server will administrarte the database registry .|
+Local Database	   | A local database is one that is local to your application only. It uses an SDF data file, which is SQL Server CE (Compact Edition) format. There is no need to install a server to access an SDF database. You simply distribute the DLLs that constitute SSCE along with your app and access the data file directly.|
 
 ##   2.4 Constraints
  Constraint	   | Description|
