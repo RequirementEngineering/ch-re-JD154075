@@ -129,9 +129,8 @@ Local Database	   | A local database is one that is local to your application on
  C-6	   | All stored data shall be transferable in case of any manual reset.|
  C-7	   | The software program shall not be restricted by any operating system.|
  C-8	   | The timesheet report shall be in a template showing school logo and administration when exported to a report.|
- C-9	   | The software program shall send a weekly reoprt via E-mail to the laboratory director.|
- C-10	   | The software program should always be running.|
- C-11	   | No budget for the software program.|
+ C-9	   | The software program should always be running.|
+ C-10	   | No budget for the software program.|
 
 ##   2.5 Assumptions and Dependencies
  Assumption	   | Description|
