@@ -26,9 +26,9 @@ This document is meant to portray the laboratory's automatized timesheet databas
 This document is intended for both the **Laboratory Director** that oversee the work program and the **Developers** of the software program.
 
 ##    1.2 Scope
-This software program will be designed with a **local database** system for a **standalone machine** for the school's laboratory director.For the purpose of maximizing the laboratory director’s productivity and work efficiency by providing tools to assist in automating a timesheet database registry, which would otherwise have to be performed manually. 
-The software program will meet the laboratory director’s needs while remaining easy to understand and use.
-The software program will facilitate communication between the laboratory director,other faculty and students.
+This software program will be designed with a **local database** system for a **standalone machine** for the school's laboratory director.For the purpose of maximizing the laboratory director’s productivity and work efficiency by providing tools to assist in automating a timesheet database registry, which would otherwise have to be performed manually.<br>
+The software program will meet the laboratory director’s needs while remaining easy to understand and use.<br>
+The software program will facilitate communication between the laboratory director,other faculty and students.<br>
 A preformatted form will be used in every stage of the timesheet database registry progress through the system to provide a uniform review process; the location of these form is configurable via the program’s maintenance options.
 
 In short words,**Chocador Asistencia** will permit the school's laboratory director to manage automated timesheets,where he can export corresponding reports related to that data.
