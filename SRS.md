@@ -421,7 +421,7 @@ Line Number|  Actors	   |  <br>|
  --- | --- | --- | 
   Line 1|  Developers: |Hello, Ok so what we have to show for you, is the software program's interface and an SQL database, wich neither of them are interconnected  yet.	   |
   Line 2|  `Laboratory Director:` |`Ok, I like it.`	   |
-  Line 3|  Developers: |We were exchanging ideas on how to do it, and we both concluded that this program has to be on a local server, since an online server is not the best option for what the program is being asked to do. It would be depend on third parties.There is also the problem that we would have to pay for the server, and since this program is for the school, it is not possible.	   |
+  Line 3|  Developers: |We were exchanging ideas on how to do it, and we both concluded that this program has to be on a local database, since an online server is not the best option for what the program is being asked to do. It would be depend on third parties.There is also the problem that we would have to pay for the server, and since this program is for the school, it is not possible. As for a local server,we would have to monopolies a computer system ,which would have to be on 24/7.   |
   Line 4|  Developers: |There are free server, but there may be the occasion that the online server falls and that's independable.	   |
   Line 5|  Developers: |So we do not think we can give you a software program that can be used on a tablet.	   |
   Line 6|  `Laboratory Director:` |`Oh Ok, I understand.So a better idea would be, making the software program installable on a stand alone machine,which would be my computer, do you think you can make that database sharable with its own program on another stand alone machine ? `	   |
