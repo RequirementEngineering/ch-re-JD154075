@@ -19,22 +19,22 @@ Prepared by Juan Mata</br>
 <br>
 
 # Table of Content
-1. [Introduction](#1.-Introduction)
-    - [Purpose](#1.1-Purpose)
-    - [Scope](#1.2-Scope)
-    - [Definitions Acronyms and Abbreviations](#1.3-Definitions-Acronyms-and-Abbreviations)
-    - [References](#1.4-References)
-    - [Overview](#1.5-Overview)
+1. [Introduction](#Introduction)<br>
+     [Purpose](#Purpose)<br>
+     [Scope](#Scope)<br>
+     [Definitions Acronyms and Abbreviations](#Definitions-Acronyms-and-Abbreviations)<br>
+     [References](#References)<br>
+     [Overview](#Overview)
 
  
- <br>
 
-#   1. Introduction
-##    1.1 Purpose
+
+# Introduction
+## Purpose
 This document is meant to portray the laboratory's automatized timesheet database registry project named as **Chocador Asistencia**. By explaining it's purpose; such as it's overall description, it's dos and don'ts,it's interface and it's actions after it's development. 
 This document is intended for both the **Laboratory Director** that oversee the work program and the **Developers** of the software program.
 
-##    1.2 Scope
+## Scope
 This software program will be designed with a **local database** system for a **standalone machine** for the school's laboratory director.For the purpose of maximizing the laboratory director’s productivity and work efficiency by providing tools to assist in automating a timesheet database registry, which would otherwise have to be performed manually.<br>
 The software program will meet the laboratory director’s needs while remaining easy to understand and use.<br>
 The software program will facilitate communication between the laboratory director,other faculty and students.<br>
@@ -42,7 +42,7 @@ A preformatted form will be used in every stage of the timesheet database regist
 
 In short words,**Chocador Asistencia** will permit the school's laboratory director to manage automated timesheets,where he can export corresponding reports related to that data.
 
-##    1.3 Definitions, Acronyms, and Abbreviations
+## Definitions, Acronyms, and Abbreviations
 Terms | Definition | 
 --- | --- | 
 *Laboratory director* |  `The person that is in charge of the laboratory's management and it's programs.` | 
@@ -68,10 +68,10 @@ Terms | Definition |
 *NR-#* | `Non Functional Requirements` |
 *Q&A* | `Questions and Answers` |
             
-##    1.4 References 
+## References 
 IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Specifications. IEEE Computer Society, 1998.
 
-##    1.5 Overview
+## Overview
 The remainder of this document describes the formal requirements and is used to establish a context for the technical requirements specification.
 *These sections are cross-referenced by topic; to increase understanding by both groups involved.*
 
