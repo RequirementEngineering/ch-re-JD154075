@@ -25,22 +25,22 @@ Prepared by Juan Mata</br>
      >[1.3 Definitions Acronyms and Abbreviations](#Definitions-Acronyms-and-Abbreviations)<br>
      >[1.4 References](#References)<br>
      >[1.5 Overview](#Overview)<br>
-2. [Overall Description](#Overall Description)<br>
-      >[2.1 Product Perspective](#Product Perspective)<br>
-      >[2.2 Product Functions](#Product Functions)<br>
-      >[2.3 User Characteristics](#User Characteristics)<br>
+2. [Overall Description](#Overall-Description)<br>
+      >[2.1 Product Perspective](#Product-Perspective)<br>
+      >[2.2 Product Functions](#Product-Functions)<br>
+      >[2.3 User Characteristics](#User-Characteristics)<br>
       >[2.4 Constraints](#Constraints)<br>
-      >[2.5 Assumptions and Dependencies](#Assumptions and Dependencies)<br>
-3. [Specific requirements](#Specific requirements)<br>
-      >[3.1 User interfaces](#User interfaces)<br>
-      >[3.2 Hardware interfaces](#Hardware interfaces)<br>
-      >[3.3 Software interfaces](#Software interfaces)<br>
-      >[3.4 Communications interfaces](#Communications interfaces)<br>
-      >[3.5 Functional Requirements](#Functional Requirements)<br>
-      >[3.6 Nonfunctional Requirements](#Nonfunctional Requirements)<br>
-      >[3.7 Description of *Functional Requirements* by giving various `Use Case`.](#Description of *Functional Requirements* by giving various `Use Case`.)<br>
-4. [Supporting Information](#Supporting Information)<br>
-      >[4.1 Elicitation Process](#Elicitation Process)<br>
+      >[2.5 Assumptions and Dependencies](#Assumptions-and-Dependencies)<br>
+3. [Specific requirements](#Specific-requirements)<br>
+      >[3.1 User Interfaces](#User-Interfaces)<br>
+      >[3.2 Hardware interfaces](#Hardware-Interfaces)<br>
+      >[3.3 Software interfaces](#Software-Interfaces)<br>
+      >[3.4 Communications interfaces](#Communications-Interfaces)<br>
+      >[3.5 Functional Requirements](#Functional-Requirements)<br>
+      >[3.6 Nonfunctional Requirements](#Nonfunctional-Requirements)<br>
+      >[3.7 Description of *Functional Requirements* by giving various `Use Case`.](#Description-of-*Functional Requirements*-by-giving various-`Use Case`.)<br>
+4. [Supporting Information](#Supporting-Information)<br>
+      >[4.1 Elicitation Process](#Elicitation-Process)<br>
  
 
 
@@ -177,7 +177,7 @@ Dependencies	   | Description|
 # Specific requirements
 This section contains all of the functional and quality requirements of the program. It gives a detailed
 description of it's features. 
-## User interfaces
+## User Interfaces
 
 <br>
 <p align="center">
@@ -226,13 +226,13 @@ Figure 4
 </p>
 <br>
 
-## Hardware interfaces
+## Hardware Interfaces
 The only designated hardware for this software program would be a barcode scanner and a physical keyboard.The software program itself does not have any direct hardware interfaces. The physical program is managed by an application and the hardware connection to the database server is managed by the underlying operating system.
 
-## Software interfaces
+## Software Interfaces
 The application communicates with the software program in order to get database information. The communication between the database and the software program consists of operation concerning both reading and modifying the data, while the communication between the database and the application consists of only reading operations.
 
-## Communications interfaces
+## Communications Interfaces
 The communication between the different parts of the program is important since they depend on each
 other.
 
