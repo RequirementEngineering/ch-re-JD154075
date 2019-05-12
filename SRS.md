@@ -38,7 +38,7 @@ Prepared by Juan Mata</br>
       >[3.4 Communications interfaces](#Communications-Interfaces)<br>
       >[3.5 Functional Requirements](#Functional-Requirements)<br>
       >[3.6 Nonfunctional Requirements](#Nonfunctional-Requirements)<br>
-      >[3.7 Description of *Functional Requirements* by giving various `Use Case`.](#Description-of-*Functional Requirements*-by-giving various-`Use Case`.)<br>
+      >[3.7 Description of *Functional Requirements* by giving various `Use Case`.](#Description-of-*Functional-Requirements*-by-giving various-`Use-Case`.)<br>
 4. [Supporting Information](#Supporting-Information)<br>
       >[4.1 Elicitation Process](#Elicitation-Process)<br>
  
