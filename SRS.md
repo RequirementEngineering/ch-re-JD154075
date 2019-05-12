@@ -49,7 +49,7 @@ Prepared by Juan Mata</br>
 This document is meant to portray the laboratory's automatized timesheet database registry project named as **Chocador Asistencia**. By explaining it's purpose; such as it's overall description, it's dos and don'ts,it's interface and it's actions after it's development. 
 This document is intended for both the **Laboratory Director** that oversee the work program and the **Developers** of the software program.
 
-<br>Go  back to the [Table of Content](#Table-of-Content).<br>
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
 
 ## Scope
 This software program will be designed with a **local database** system for a **standalone machine** for the school's laboratory director.For the purpose of maximizing the laboratory director’s productivity and work efficiency by providing tools to assist in automating a timesheet database registry, which would otherwise have to be performed manually.<br>
@@ -58,6 +58,8 @@ The software program will facilitate communication between the laboratory direct
 A preformatted form will be used in every stage of the timesheet database registry progress through the system to provide a uniform review process; the location of these form is configurable via the program’s maintenance options.
 
 In short words,**Chocador Asistencia** will permit the school's laboratory director to manage automated timesheets,where he can export corresponding reports related to that data.
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
 
 ## Definitions, Acronyms, and Abbreviations
 Terms | Definition | 
@@ -84,13 +86,19 @@ Terms | Definition |
 *FR-#* | `Functional requirement` |
 *NR-#* | `Non Functional Requirements` |
 *Q&A* | `Questions and Answers` |
-            
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
+
 ## References 
 IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Specifications. IEEE Computer Society, 1998.
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
 
 ## Overview
 The remainder of this document describes the formal requirements and is used to establish a context for the technical requirements specification.
 *These sections are cross-referenced by topic; to increase understanding by both groups involved.*
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
 
 # Overall Description
 This software program is a new attempt to meet new automatize registry of timesheets by making a system where the laboratory director can digitally view, create, modify, and share with other faculty a linear series of the time records such as;
@@ -100,6 +108,8 @@ This software program is a new attempt to meet new automatize registry of timesh
 >3.*Students will be rewarded with a certificate that mark their progress and achievements of their work hours.*<br>
 >4.*Faculty time usage of laboratorys and it's equipments.*
 
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
+
 ## Product Perspective
 1. The software program will be independent and self-contained.
 2. The software program will be coded in programming language C#.
@@ -108,6 +118,8 @@ This software program is a new attempt to meet new automatize registry of timesh
 5. The software's program interface will be easy to follow.
 6. The software program will have a backup database protocol to follow.<br>
 7. The software program will have a security protocol to follow when attempting to modify information in the database registry.
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
 
 ## Product Functions
 Function	   | Description|
@@ -134,6 +146,8 @@ F-19	   |The software program can create a copy of a shared database which is th
 F-20	   |The developer of the software program can temporarily change their account privileges to that of a laboratory director.|
 F-21	   |The developer of the software program can temporarily change their account privileges to that of a faculty or a student.|
 
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
+
 ## User Characteristics
 Actors	   | Description|
 --- | --- |
@@ -141,6 +155,7 @@ Laboratory Director	   | The laboratory director is the person who has direct au
 Faculty	   | The faculty is the person or people who are using the program to register for an account, access laboratories and equipment, view timesheets linked to an activity, viewing their progress for each activity and overall take.|
 Student	   | The student is the person or people who are using the program to register for an account, access activities, view timesheets linked to an activity, viewing their progress for each activity and overall points.|
 
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
 
 ## Constraints
  Constraint	   | Description|
@@ -155,6 +170,8 @@ Student	   | The student is the person or people who are using the program to re
  C-8	   | The timesheet report shall be in a template showing school logo and administration when exported to a report.|
  C-9	   | The software program should always be running.|
  C-10	   | No budget for the software program.|
+ 
+ <br>Go  back to [Table of Content](#Table-of-Content).<br>
 
 ## Assumptions and Dependencies
  Assumption	   | Description|
@@ -175,10 +192,14 @@ Dependencies	   | Description|
  D-4	   | Depend that the sotware program is running when making a login.|
  A-5	   | Depend that the login section of the software's program registry, logs in correctly when using a barcode scanner.|
  
+ <br>Go  back to [Table of Content](#Table-of-Content).<br>
  
 # Specific requirements
 This section contains all of the functional and quality requirements of the program. It gives a detailed
 description of it's features. 
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
+
 ## User Interfaces
 
 <br>
@@ -228,11 +249,17 @@ Figure 4
 </p>
 <br>
 
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
+
 ## Hardware Interfaces
 The only designated hardware for this software program would be a barcode scanner and a physical keyboard.The software program itself does not have any direct hardware interfaces. The physical program is managed by an application and the hardware connection to the database server is managed by the underlying operating system.
 
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
+
 ## Software Interfaces
 The application communicates with the software program in order to get database information. The communication between the database and the software program consists of operation concerning both reading and modifying the data, while the communication between the database and the application consists of only reading operations.
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
 
 ## Communications Interfaces
 The communication between the different parts of the program is important since they depend on each
@@ -244,6 +271,8 @@ Communications Interfaces	   | Description|
  CI-2	   | The software program shall send a notification to confirm registration with the database.|
  CI-3	   | The software program shall read correctly the barcode scanner,while writing.|
  
+ <br>Go  back to [Table of Content](#Table-of-Content).<br>
+ 
 ## Functional Requirements
 Functional Requirements   | <br>| Description|
 --- | --- |--- |
@@ -253,12 +282,15 @@ FR-3	   | Faculty/Student Edit |The program shall let a user that is an administ
 FR-4	   | Faculty/Student Remove |The program shall let a user that is an administrator with correct permissions who is logged into the program to remove  faculty or students.|
 FR-5	   | Faculty/Student Review |The system shall let a user that is an administrator with correct permissions who is logged into the program to review faculty and students.|
 
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
+
 ## Nonfunctional Requirements
 Nonfunctional Requirements	   | Description|
  --- | --- |
 NR-1	   | Responses to queries shall take no longer than 5 seconds to load onto the screen after the user submits the query.|
 NR-2	   | All documentation generated by the system shall be fully downloadable.|
 
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
 
 ## Use Case
 >Use Case related to **Installation**.
@@ -413,6 +445,8 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
   <br>| **Setp 1** | Go to Control Panel> Programs> Uninstall Program> Search application: `Micosoft SQL Server 2016 LocalDB` and `Checador Asistencia `  |
   <br>| **Setp 2** | Select the programs one by one and click on **Uninstall**.  |
   
+  <br>Go  back to [Table of Content](#Table-of-Content).<br>
+  
 # Supporting Information
 ## Elicitation Process
 >First Day Meeting Interview: Type: **Q&A**
@@ -480,3 +514,5 @@ Line Number|  Actors	   |  <br>|
   Line 2|  `Laboratory Director:` |`It's looking good.Will the modification option have a lock(sign in) restriction so that no student or facutly member can make a modification to the registry with out my authorization.  `	   |
   Line 3|  `Laboratory Director:` |`Can the interface be divide in to two sections, the students registry and faculty registry sense that the faculty registry involves the use of laboratories and equipment.     `	   |
   Line 4|  Developers: |Yes we will work on it. 	   |
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
