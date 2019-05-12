@@ -49,11 +49,7 @@ Prepared by Juan Mata</br>
 This document is meant to portray the laboratory's automatized timesheet database registry project named as **Chocador Asistencia**. By explaining it's purpose; such as it's overall description, it's dos and don'ts,it's interface and it's actions after it's development. 
 This document is intended for both the **Laboratory Director** that oversee the work program and the **Developers** of the software program.
 
-<br>
-<p align="right">
-[Table of Content](#Table-of-Content)
-</p>
-<br>
+<br>[Table of Content](#Table-of-Content)<br>
 
 ## Scope
 This software program will be designed with a **local database** system for a **standalone machine** for the school's laboratory director.For the purpose of maximizing the laboratory director’s productivity and work efficiency by providing tools to assist in automating a timesheet database registry, which would otherwise have to be performed manually.<br>
