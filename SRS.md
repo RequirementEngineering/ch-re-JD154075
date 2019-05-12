@@ -17,8 +17,31 @@ Prepared by Juan Mata</br>
 </p>
 
 
-
-
+#Table of Content
+[1.Introduction](##1.Introduction)
+ [1.1 Purpose](###1.1 Purpose)
+ [1.2 Scope](###1.2 Scope)
+ [1.3 Definitions, Acronyms, and Abbreviations](###1.3 Definitions, Acronyms, and Abbreviations])
+ [1.4 References](###1.4 References)
+ [1.5 Overview](###1.5 Overview)
+[2.Overall Description](##2.Overall Description)
+ [2.1 Product Perspective](###2.1 Product Perspective)
+ [2.2 Product Functions](###2.2 Product Functions)
+ [2.3 User Characteristics](###2.3 User Characteristics)
+ [2.4 Constraints](###2.4 Constraints)
+ [2.5 Assumptions and Dependencies
+[3.Specific requirements](##3.Specific requirements)
+ [3.1 User interfaces](###3.1 User interfaces)
+ [3.2 Hardware interfaces](3.2 Hardware interfaces)
+ [3.3 Software interfaces](###3.3 Software interfaces)
+ [3.4 Communications interfaces](###3.4 Communications interfaces)
+ [3.5 Functional Requirements](###3.5 Functional Requirements)
+ [3.6 Nonfunctional Requirements](###3.6 Nonfunctional Requirements)
+ [3.7 Description of *Functional Requirements* by giving various `Use Case`.](###3.7 Description of *Functional Requirements* by giving various `Use Case`.)
+[4.Supporting Information](##4.Supporting Information)
+ [4.1 Elicitation Process](### 4.1 Elicitation Process)
+ 
+ 
 
 #   1. Introduction
 ##    1.1 Purpose
@@ -33,7 +56,7 @@ A preformatted form will be used in every stage of the timesheet database regist
 
 In short words,**Chocador Asistencia** will permit the school's laboratory director to manage automated timesheets,where he can export corresponding reports related to that data.
 
-##    1.3 Definitions, acronyms, and abbreviations
+##    1.3 Definitions, Acronyms, and Abbreviations
 Terms | Definition | 
 --- | --- | 
 *Laboratory director* |  `The person that is in charge of the laboratory's management and it's programs.` | 
@@ -42,7 +65,7 @@ Terms | Definition |
 *Students* | `Students that are conducting their social work.` |
 *Developers* | `The people that develop the software program.` |
 *Database* |  `Collection of all the information monitored by this system.` |
-*Local Database* |  `A local database is one that is local to your application only.` |
+*Local Database* |  `A local database is one that is local to your application only. It uses an SDF data file, which is SQL Server CE (Compact Edition) format. There is no need to install a server to access an SDF database. You simply distribute the DLLs that constitute SSCE along with your app and access the data file directly.` |
 *Standalone Machine* | `Device is any mechanism or system that can perform its function without the need of another device, computer, or connection.` |
 *Timesheets* |  `Detailed records showing the amount of time spent on each program or student.` |
 *Registry* | `Place where registers or records are kept.` | 
@@ -111,12 +134,10 @@ F-21	   |The developer of the software program can temporarily change their acco
 ##   2.3 User Characteristics
 Actors	   | Description|
 --- | --- |
-Laboratory Director	   | The laboratory director is the person who is using the program to validate student and faculty registration, setting up activity reports, link activities to outcomes or objectives, add timesheets to support the activities, viewing the progress of students work, and activities of faculty usage of the laboratories and equipment.|
-Developer	   | The developer can imitate any type of user in the system, can access and modify the database, and has all the privileges of all other user types, he or she is more like a system administrator.|
+Laboratory Director	   | The laboratory director is the person who has direct authority in using the program, to validate student and faculty registration, setting up activity reports, link activities to outcomes or objectives, add timesheets to support the activities, viewing the progress of students work, and activities of faculty usage of the laboratories and equipment.|
 Faculty	   | The faculty is the person or people who are using the program to register for an account, access laboratories and equipment, view timesheets linked to an activity, viewing their progress for each activity and overall take.|
 Student	   | The student is the person or people who are using the program to register for an account, access activities, view timesheets linked to an activity, viewing their progress for each activity and overall points.|
-Service Administrator	   | The service administrator is the person or people,who have unrestricted access to service configuration, can perform all service administrative tasks and all operations in managed domain of the school's electrical department.|
-Local Database	   | A local database is one that is local to your application only. It uses an SDF data file, which is SQL Server CE (Compact Edition) format. There is no need to install a server to access an SDF database. You simply distribute the DLLs that constitute SSCE along with your app and access the data file directly.|
+
 
 ##   2.4 Constraints
  Constraint	   | Description|
@@ -155,7 +176,7 @@ Dependencies	   | Description|
 #   3.Specific requirements
 This section contains all of the functional and quality requirements of the program. It gives a detailed
 description of it's features. 
-## 3.1  User interfaces
+## 3.1 User interfaces
 
 <br>
 <p align="center">
