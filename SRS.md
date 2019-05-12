@@ -20,12 +20,27 @@ Prepared by Juan Mata</br>
 
 # Table of Content
 1. [Introduction](#Introduction)<br>
-     >[Purpose](#Purpose)<br>
-     >[Scope](#Scope)<br>
-     >[Definitions Acronyms and Abbreviations](#Definitions-Acronyms-and-Abbreviations)<br>
-     >[References](#References)<br>
-     >[Overview](#Overview)
-
+     >[1.1 Purpose](#Purpose)<br>
+     >[1.2 Scope](#Scope)<br>
+     >[1.3 Definitions Acronyms and Abbreviations](#Definitions-Acronyms-and-Abbreviations)<br>
+     >[1.4 References](#References)<br>
+     >[1.5 Overview](#Overview)<br>
+2. [Overall Description](#Overall Description)<br>
+      >[2.1 Product Perspective](#Product Perspective)<br>
+      >[2.2 Product Functions](#Product Functions)<br>
+      >[2.3 User Characteristics](#User Characteristics)<br>
+      >[2.4 Constraints](#Constraints)<br>
+      >[2.5 Assumptions and Dependencies](#Assumptions and Dependencies)<br>
+3. [Specific requirements](#Specific requirements)<br>
+      >[3.1 User interfaces](#User interfaces)<br>
+      >[3.2 Hardware interfaces](#Hardware interfaces)<br>
+      >[3.3 Software interfaces](#Software interfaces)<br>
+      >[3.4 Communications interfaces](#Communications interfaces)<br>
+      >[3.5 Functional Requirements](#Functional Requirements)<br>
+      >[3.6 Nonfunctional Requirements](#Nonfunctional Requirements)<br>
+      >[3.7 Description of *Functional Requirements* by giving various `Use Case`.](#Description of *Functional Requirements* by giving various `Use Case`.)<br>
+4. [Supporting Information](#Supporting Information)<br>
+      >[4.1 Elicitation Process](#Elicitation Process)<br>
  
 
 
@@ -75,7 +90,7 @@ IEEE. IEEE Std 830-1998 IEEE Recommended Practice for Software Requirements Spec
 The remainder of this document describes the formal requirements and is used to establish a context for the technical requirements specification.
 *These sections are cross-referenced by topic; to increase understanding by both groups involved.*
 
-#   2.Overall Description
+# Overall Description
 This software program is a new attempt to meet new automatize registry of timesheets by making a system where the laboratory director can digitally view, create, modify, and share with other faculty a linear series of the time records such as;
 
 >1.*Student's time in work program or social work.*<br>
@@ -83,7 +98,7 @@ This software program is a new attempt to meet new automatize registry of timesh
 >3.*Students will be rewarded with a certificate that mark their progress and achievements of their work hours.*<br>
 >4.*Faculty time usage of laboratorys and it's equipments.*
 
-##   2.1 Product Perspective
+## Product Perspective
 1. The software program will be independent and self-contained.
 2. The software program will be coded in programming language C#.
 3. The software program will have a local SQL Database.
@@ -92,7 +107,7 @@ This software program is a new attempt to meet new automatize registry of timesh
 6. The software program will have a backup database protocol to follow.<br>
 7. The software program will have a security protocol to follow when attempting to modify information in the database registry.
 
-##   2.2 Product Functions
+## Product Functions
 Function	   | Description|
 --- | --- |
 F-1	   |Laboratory director registering.|
@@ -117,7 +132,7 @@ F-19	   |The software program can create a copy of a shared database which is th
 F-20	   |The developer of the software program can temporarily change their account privileges to that of a laboratory director.|
 F-21	   |The developer of the software program can temporarily change their account privileges to that of a faculty or a student.|
 
-##   2.3 User Characteristics
+## User Characteristics
 Actors	   | Description|
 --- | --- |
 Laboratory Director	   | The laboratory director is the person who has direct authority in using the program, to validate student and faculty registration, setting up activity reports, link activities to outcomes or objectives, add timesheets to support the activities, viewing the progress of students work, and activities of faculty usage of the laboratories and equipment.|
@@ -125,7 +140,7 @@ Faculty	   | The faculty is the person or people who are using the program to re
 Student	   | The student is the person or people who are using the program to register for an account, access activities, view timesheets linked to an activity, viewing their progress for each activity and overall points.|
 
 
-##   2.4 Constraints
+## Constraints
  Constraint	   | Description|
 --- | --- |
  C-1	   | Must use a service administrator ID as a unique identifier for the installation of the software program.|
@@ -139,7 +154,7 @@ Student	   | The student is the person or people who are using the program to re
  C-9	   | The software program should always be running.|
  C-10	   | No budget for the software program.|
 
-##   2.5 Assumptions and Dependencies
+## Assumptions and Dependencies
  Assumption	   | Description|
  --- | --- |
  A-1	   | Assumed that the software program has no database limit.|
@@ -159,10 +174,10 @@ Dependencies	   | Description|
  A-5	   | Depend that the login section of the software's program registry, logs in correctly when using a barcode scanner.|
  
  
-#   3.Specific requirements
+# Specific requirements
 This section contains all of the functional and quality requirements of the program. It gives a detailed
 description of it's features. 
-## 3.1 User interfaces
+## User interfaces
 
 <br>
 <p align="center">
@@ -211,13 +226,13 @@ Figure 4
 </p>
 <br>
 
-## 3.2 Hardware interfaces
+## Hardware interfaces
 The only designated hardware for this software program would be a barcode scanner and a physical keyboard.The software program itself does not have any direct hardware interfaces. The physical program is managed by an application and the hardware connection to the database server is managed by the underlying operating system.
 
-## 3.3 Software interfaces
+## Software interfaces
 The application communicates with the software program in order to get database information. The communication between the database and the software program consists of operation concerning both reading and modifying the data, while the communication between the database and the application consists of only reading operations.
 
-## 3.4 Communications interfaces
+## Communications interfaces
 The communication between the different parts of the program is important since they depend on each
 other.
 
@@ -227,7 +242,7 @@ Communications Interfaces	   | Description|
  CI-2	   | The software program shall send a notification to confirm registration with the database.|
  CI-3	   | The software program shall read correctly the barcode scanner,while writing.|
  
-## 3.5 Functional Requirements
+## Functional Requirements
 Functional Requirements   | <br>| Description|
 --- | --- |--- |
 FR-1	   | Faculty/Student Add |The software program shall let a User that is an administrator with correct permissions who is logged into the program to add faculty or students.|
@@ -236,14 +251,14 @@ FR-3	   | Faculty/Student Edit |The program shall let a user that is an administ
 FR-4	   | Faculty/Student Remove |The program shall let a user that is an administrator with correct permissions who is logged into the program to remove  faculty or students.|
 FR-5	   | Faculty/Student Review |The system shall let a user that is an administrator with correct permissions who is logged into the program to review faculty and students.|
 
-## 3.6 Nonfunctional Requirements
+## Nonfunctional Requirements
 Nonfunctional Requirements	   | Description|
  --- | --- |
 NR-1	   | Responses to queries shall take no longer than 5 seconds to load onto the screen after the user submits the query.|
 NR-2	   | All documentation generated by the system shall be fully downloadable.|
 
 
-## 3.7 Description of *Functional Requirements* by giving various `Use Case`.
+## Description of *Functional Requirements* by giving various `Use Case`.
 >Use Case related to **Installation**.
 
 `Use Case 1`	   |  <br>|  <br>|  
@@ -396,8 +411,8 @@ NR-2	   | All documentation generated by the system shall be fully downloadable.
   <br>| **Setp 1** | Go to Control Panel> Programs> Uninstall Program> Search application: `Micosoft SQL Server 2016 LocalDB` and `Checador Asistencia `  |
   <br>| **Setp 2** | Select the programs one by one and click on **Uninstall**.  |
   
-#   4.Supporting Information
-## 4.1 Elicitation Process
+# Supporting Information
+## Elicitation Process
 >First Day Meeting Interview: Type: **Q&A**
 
 Line Number|  Actors	   |  <br>|  
