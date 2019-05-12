@@ -16,6 +16,7 @@ Laboratorial Timesheets Database Registry</br>
 Prepared by Juan Mata</br>
 </p>
 
+<br>
 
 # Table of Content
 1. [Introduction](#Introduction)<br>
@@ -41,7 +42,7 @@ Prepared by Juan Mata</br>
 4. [Supporting Information](#Supporting Information)<br>
       -[4.1 Elicitation Process](# 4.1 Elicitation Process)<br>
  
- 
+ <br>
 
 #   1. Introduction
 ##    1.1 Purpose
