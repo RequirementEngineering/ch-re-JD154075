@@ -19,28 +19,14 @@ Prepared by Juan Mata</br>
 <br>
 
 # Table of Content
-1. [Introduction](#Introduction)<br>
-      -[1.1 Purpose](#1.1 Purpose)<br>
-      -[1.2 Scope](#1.2 Scope)<br>
-      -[1.3 Definitions, Acronyms, and Abbreviations](#1.3 Definitions, Acronyms, and Abbreviations)<br>
-      -[1.4 References](#1.4 References)<br>
-      -[1.5 Overview](#1.5 Overview)<br>
-2. [Overall Description](Overall Description)<br>
-      -[2.1 Product Perspective](#2.1 Product Perspective)<br>
-      -[2.2 Product Functions](#2.2 Product Functions)<br>
-      -[2.3 User Characteristics](#2.3 User Characteristics)<br>
-      -[2.4 Constraints](#2.4 Constraints)<br>
-      -[2.5 Assumptions and Dependencies](#2.5 Assumptions and Dependencies)<br>
-3. [Specific requirements](#3.Specific requirements)<br>
-      -[3.1 User interfaces](#3.1 User interfaces)<br>
-      -[3.2 Hardware interfaces](#3.2 Hardware interfaces)<br>
-      -[3.3 Software interfaces](#3.3 Software interfaces)<br>
-      -[3.4 Communications interfaces](#3.4 Communications interfaces)<br>
-      -[3.5 Functional Requirements](#3.5 Functional Requirements)<br>
-      -[3.6 Nonfunctional Requirements](#3.6 Nonfunctional Requirements)<br>
-      -[3.7 Description of *Functional Requirements* by giving various `Use Case`.](#3.7 Description of *Functional Requirements* by giving various `Use Case`.)<br>
-4. [Supporting Information](#Supporting Information)<br>
-      -[4.1 Elicitation Process](# 4.1 Elicitation Process)<br>
+1. [Introduction](#Introduction)
+    - [Purpose](#Purpose)
+    - [Scope](#Scope)
+    - [Business Managment Process](#Business Managment Process)
+    - [Definitions acronyms and abbreviations](#definitions-acronyms-and-abbreviations)
+    - [References](#References)
+    - [Overview](#Overview)
+
  
  <br>
 
