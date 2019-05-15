@@ -152,8 +152,9 @@ F-21	   |The developer of the software program can temporarily change their acco
 Actors	   | Description|
 --- | --- |
 Laboratory Director	   | The laboratory director is the person who has direct authority in using the program, to validate student and faculty registration, setting up activity reports, link activities to outcomes or objectives, add timesheets to support the activities, viewing the progress of students work, and activities of faculty usage of the laboratories and equipment.|
-Faculty	   | The faculty is the person or people who are using the program to register for an account, access laboratories and equipment, view timesheets linked to an activity, viewing their progress for each activity and overall take.|
 Student	   | The student is the person or people who are using the program to register for an account, access activities, view timesheets linked to an activity, viewing their progress for each activity and overall points.|
+Faculty	   | The faculty is the person or people who are using the program to register for an account, access laboratories and equipment, view timesheets linked to an activity, viewing their progress for each activity and overall take.|
+
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
 
