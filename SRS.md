@@ -307,7 +307,7 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
 
->Use Case related to **Installation**.
+>`Use Case` related to **Installation**.
 
 `Use Case 1`	   |  <br>|  <br>|  
  --- | --- | --- | 
@@ -349,7 +349,7 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
   
->Specific `Use Case` related to **Registry**.
+>`Use Case` related to **Registry**.
 
 <br>
 <p align="center">
@@ -371,7 +371,14 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
   
- >Specific `Use Case` related to **Log in and log out**.
+ >`Use Case` related to **Log in and log out**.
+ 
+<br>
+<p align="center">
+<img width="600" height="300"
+src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/Log.PNG">
+</p>
+<br>
 
 `Use Case 3`	   |  <br>|  <br>|  
  --- | --- | --- | 
@@ -390,7 +397,7 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
   
- >Specific `Use Case` related to **Consult**.
+ >`Use Case` related to **Consult**.
 
 `Use Case 4`	   |  <br>|  <br>|  
  --- | --- | --- | 
