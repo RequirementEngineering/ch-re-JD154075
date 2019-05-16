@@ -611,9 +611,8 @@ Line Number|  Actors	   |  <br>|
 src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Business%20Process%20Diagram1.png">
 </p>
 <p align="center">
-Figure 4
+Go to [.vpp](#https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/CA.vpp) file.
 </p>
-Go to [https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/CA.vpp](#.vpp) file.
 <br>
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
