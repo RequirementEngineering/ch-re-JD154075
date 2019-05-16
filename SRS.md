@@ -606,7 +606,6 @@ Line Number|  Actors	   |  <br>|
 ## Business Process Mapping
 
 <br>
-</p>
 <p align="center">
 <b>General BPM Diagram</b>
 <p align="center">
@@ -615,6 +614,18 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
 </p>
 <p align="center">
 Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/CA.vpp">.vpp</a> file.
+</p>
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
+>Sub-process `Student Consult`.
+
+<br>
+<p align="center">
+<img width="800" height="400"
+src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Consult.png">
+</p>
+<p align="center">
+Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Consult.vpp">.vpp</a> file.
 </p>
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
