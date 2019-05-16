@@ -305,6 +305,8 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
 </p>
 <br>
 
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
+
 >Use Case related to **Installation**.
 
 `Use Case 1`	   |  <br>|  <br>|  
@@ -344,12 +346,14 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
    <br>| **Setp 14** |  Ready, installation completed. |
    <br>| **Setp 15** |  **Chocador Asistencia.app** will appear on the desktop of the device. |
    <br>| **Setp 16** |  Click on **Chocador Asistencia** program to start use. |
-   
+  
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
+  
 >Use Case related to **Registry**.
 
 <br>
 <p align="center">
-<img width="500" height="400"
+<img width="400" height="500"
 src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/Registry.PNG">
 </p>
 <br>
@@ -364,6 +368,8 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   <br>| **Setp 3** | Fill in requirements correctly, **Faculty ID restricted to 4 digits and Student ID to 6 digits**. |
   <br>| **Setp 4** | After completing the query, click on **Registrar**. |
   <br>| **Setp 4** | If the registration was made correctly, it is saved and a window appears saying, `Se registro correctamente`> Click **OK** to continue. |
+  
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
   
  >Use Case related to **Log in and log out**.
 
@@ -381,6 +387,8 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   <br>| **Setp 7** | If faculty or student ID is scanned, it will be automatically registered and if it is entered manually, click on **Checar**. |
   <br>| **Setp 8** | If the faculty or student ID was entered correctly, a following window will appear showing `[SALIDA]` together with the time of the last check in registry. |
   <br>| **Note** | If faculty or student ID is not registered or entered correctly a window will appear saying, `ERROR: MATRICULA NO ENCONTRADA`. |
+  
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
   
  >Use Case related to **Consult**.
 
@@ -401,7 +409,8 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   <br>| **Setp 6** | Select **Nombre** in the **Estudiantes** frame> Enter Student name> Click on **Buscar** |
   <br>| <br> | `Total Search of Students in records.` |
   <br>| **Setp 7** | Select **Todos** in the **Estudiantes** frame> Click on **Buscar** |
-  
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
   
 >Use Case related to **Export**.
 
@@ -416,7 +425,8 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   <br>| **Setp 4** | Fill in the requirements that is request. `File name is automatically filled in as` **Reporte** `and with the export date in dd / mm / yyyy format)> Click on Save.` |
   <br>| **Setp 5** | It will be saved in an Excel file. |
   <br>| **Setp 6** | If the record was saved correctly a window will appear saying `Archivo guardado correctamente`.> Click on **OK** to continue. |
-  
+ 
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
  
 >Use Case related to **Export Excel File**.
 
@@ -427,7 +437,9 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   <br>|`Main Scenario`	   | Export Excel File|
   <br>| **Setp 1** | The export of the file in Excel appears in wherever location it is saved as such, with name `Reporte` and day of that is being exported. |
   <br>| **Setp 2** | The file exported in Excel is created with a default template for the school. |
-  
+ 
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
+ 
 >Use Case related to **Modification**.
 
 `Use Case 7`	   |  <br>|  <br>|  
@@ -441,7 +453,9 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   <br>| **Setp 4** | Registration of the faculty or student with that faculty or student ID will appear> Correct any incorrect aspect> To save any modification click on **Modificar**. |
   <br>| **Setp 5** | If the modification was made correctly, a window appears saying `Se modefico el estudiante correctamente`. |
   <br>| **Note** | If you want to **Delete** the registration of a certain faculty or student with certain faculty or student ID> Click on **Eliminar**. |
-   
+  
+<br>Go  back to [Table of Content](#Table-of-Content).<br>  
+  
 >Use Case related to **Database Backup**.
 
 `Use Case 8`	   |  <br>|  <br>|  
@@ -453,7 +467,9 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   <br>| **Setp 1** | Access the folder where the program was installed *By default* `Documents/Checador Asistencia`.  |
   <br>| **Setp 2** | Inside `Documents/Checador Asistencia` > The two files **BaseDeDatos.mdf** and **BaseDeDatos_log.ldf** should be **copied** and **stored** in a **safe place**.  |
   <br>| **Setp 3** | When the program is installed again just paste these two files in the program folder by replacing the previous files by the same name.  |
-  
+ 
+ <br>Go  back to [Table of Content](#Table-of-Content).<br>
+ 
 >Use Case related to **Uninstall**.
 
 `Use Case 9`	   |  <br>|  <br>|  
@@ -490,6 +506,8 @@ Line Number|  Actors	   |  <br>|
   Line 17|  `Laboratory Director:` |`Barcode scanner and excel for exportation.`	   |
   Line 18|  Developers: |What’s the timeline for product development?   |
   Line 19|  `Laboratory Director:` |`At the end of the semester.`	   |
+  
+ <br>Go  back to [Table of Content](#Table-of-Content).<br>
 
 >Second Meeting Interview: Type: **Conversation**
 
@@ -506,6 +524,8 @@ Line Number|  Actors	   |  <br>|
   Line 9|  `Laboratory Director:` |`Ok guys, I like what you have so far, keep up the good work .`	   |
   Line 10|  Developers: |Ok,thank you,see you next time.	   |
   Line 11|  `Laboratory Director:` |`Ok then, till then.`	   |
+  
+<br>Go  back to [Table of Content](#Table-of-Content).<br>  
   
   >Third Meeting Interview: Type: **Conversation**
 
@@ -524,6 +544,8 @@ Line Number|  Actors	   |  <br>|
   Line 11|  Developers: |Ok, we can do that.Will give you a new revision next time 	   |
   Line 12|  `Laboratory Director:` |`Yes,ok guys I will see you next time. `	   |
   Line 13|  Developers: |Ok,thank you. 	   |
+  
+ <br>Go  back to [Table of Content](#Table-of-Content).<br>
  
  >Fourth Meeting Interview: Type: **Conversation**
 
