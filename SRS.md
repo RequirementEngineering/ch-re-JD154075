@@ -375,7 +375,7 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
  
 <br>
 <p align="center">
-<img width="600" height="300"
+<img width="500" height="300"
 src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/Log.PNG">
 </p>
 <br>
