@@ -41,7 +41,7 @@
       >[3.7 Use Case](#Use-Case)<br>
 4. [Supporting Information](#Supporting-Information)<br>
       >[4.1 Elicitation Process](#Elicitation-Process)<br>
-      >[4.2 Business Process Managment](#Business-Process-Managment)<br>
+      >[4.2 Business Process Mapping](#Business-Process-Mapping)<br>
       
  
 
@@ -603,7 +603,14 @@ Line Number|  Actors	   |  <br>|
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
 
-## Business Process Managment
+## Business Process Mapping
+
+<br>
+<p align="center">
+<img width="800" height="800"
+src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Business%20Process%20Diagram1.png">
+</p>
+<br>
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
 
