@@ -478,6 +478,13 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
  
 >Specific `Use Case` related to **Modification**.
 
+<br>
+<p align="center">
+<img width="800" height="200"
+src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/M.PNG">
+</p>
+<br>
+
 `Use Case 7`	   |  <br>|  <br>|  
  --- | --- | --- | 
   <br>|`Primary Actor`	   | Laboratory Director|
