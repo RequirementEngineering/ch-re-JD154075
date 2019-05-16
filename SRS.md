@@ -443,6 +443,13 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   
 >Specific `Use Case` related to **Export**.
 
+<br>
+<p align="center">
+<img width="600" height="300"
+src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/Export.PNG">
+</p>
+<br>
+
 `Use Case 5`	   |  <br>|  <br>|  
  --- | --- | --- | 
   <br>|`Primary Actor`	   | Laboratory Director |
