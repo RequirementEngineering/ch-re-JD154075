@@ -41,7 +41,7 @@
       >[3.7 Use Case](#Use-Case)<br>
 4. [Supporting Information](#Supporting-Information)<br>
       >[4.1 Elicitation Process](#Elicitation-Process)<br>
-      >[Business Managment Process(BMPN)](#Business Managment Process(BMPN))<br>
+      >[Business Process Managment](#Business Process Managment)<br>
       
  
 
@@ -603,7 +603,7 @@ Line Number|  Actors	   |  <br>|
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
 
-##Business Managment Process(BMPN)
+##Business Process Managment
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
 
