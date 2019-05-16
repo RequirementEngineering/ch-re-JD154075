@@ -57,7 +57,7 @@ The software program will meet the laboratory director’s needs while remaining
 The software program will facilitate communication between the laboratory director,other faculty and students.<br>
 A preformatted form will be used in every stage of the timesheet database registry progress through the system to provide a uniform review process; the location of these form is configurable via the program’s maintenance options.
 
-In short words,**Chocador Asistencia** will permit the school's laboratory director to manage automated timesheets,where he can export corresponding reports related to that data.
+In short words, **Chocador Asistencia** will permit the school's laboratory director to manage automated timesheets,where he can export corresponding reports related to that data.
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
 
@@ -353,7 +353,7 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
 
 <br>
 <p align="center">
-<img width="400" height="400"
+<img width="200" height="300"
 src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/Registry.PNG">
 </p>
 <br>
