@@ -622,10 +622,10 @@ Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/mas
 <br>
 <p align="center">
 <img width="900" height="300"
-src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Consult.png">
+src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Consult1.png">
 </p>
 <p align="center">
-Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Consult.vpp">.vpp</a> file.
+Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Consult1.vpp">.vpp</a> file.
 </p>
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
