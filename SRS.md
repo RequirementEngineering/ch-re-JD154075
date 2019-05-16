@@ -41,6 +41,8 @@
       >[3.7 Use Case](#Use-Case)<br>
 4. [Supporting Information](#Supporting-Information)<br>
       >[4.1 Elicitation Process](#Elicitation-Process)<br>
+      >[Business Managment Process(BMPN)](#Business Managment Process(BMPN))<br>
+      
  
 
 
@@ -64,7 +66,7 @@ In short words, **Chocador Asistencia** will permit the school's laboratory dire
 ## Definitions, Acronyms, and Abbreviations
 Terms | Definition | 
 --- | --- | 
-*Laboratory director* |  `The person that is in charge of the laboratory's management and it's programs.` | 
+*Laboratory Director* |  `The person that is in charge of the laboratory's management and it's programs.` | 
 *Service Administrators* |  `Users that have unrestricted access to service configuration, can perform all service administrative tasks and all operations in Managed Domains.` | 
 *Faculty* |  `The body of teachers and administrators at a school.` | 
 *Students* | `Students that are conducting their social work.` |
@@ -600,3 +602,8 @@ Line Number|  Actors	   |  <br>|
   Line 4|  Developers: |Yes we will work on it. 	   |
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
+
+##Business Managment Process(BMPN)
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
+
