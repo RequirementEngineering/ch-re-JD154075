@@ -621,7 +621,7 @@ Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/mas
 
 <br>
 <p align="center">
-<img width="800" height="400"
+<img width="900" height="300"
 src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Consult.png">
 </p>
 <p align="center">
