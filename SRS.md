@@ -353,7 +353,7 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
 
 <br>
 <p align="center">
-<img width="200" height="300"
+<img width="400" height="200"
 src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/Registry.PNG">
 </p>
 <br>
