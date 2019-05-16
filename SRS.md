@@ -387,13 +387,16 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   <br>|`Main Scenario`	   | Log in and log out of faculty or students|
   <br>| **Setp 1** | Login. |
   <br>| **Setp 2** | Scan faculty or student ID or enter ID manually. |
+  <br>| **Note** | `Software program will identify type of user with unique key` |
   <br>| **Setp 3** | If faculty or student ID is scanned, it will be automatically registered and if it is entered manually, click on **Checar**. |
+  <br>| **Note** | `If user is faculty and has a reservation, insert the lab or equipment's unique key.` |
   <br>| **Setp 4** | If the faculty or student ID was entered correctly, a following window will appear showing `[ENTRADA]` together with the time of the last check in registry. |
   <br>| **Setp 5** | Log Out. |
   <br>| **Setp 6** | Scan faculty or student ID or enter ID manually. |
   <br>| **Setp 7** | If faculty or student ID is scanned, it will be automatically registered and if it is entered manually, click on **Checar**. |
   <br>| **Setp 8** | If the faculty or student ID was entered correctly, a following window will appear showing `[SALIDA]` together with the time of the last check in registry. |
   <br>| **Note** | If faculty or student ID is not registered or entered correctly a window will appear saying, `ERROR: MATRICULA NO ENCONTRADA`. |
+  
   
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
   
