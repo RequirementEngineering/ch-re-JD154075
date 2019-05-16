@@ -349,7 +349,7 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
   
->Use Case related to **Registry**.
+>Specific `Use Case` related to **Registry**.
 
 <br>
 <p align="center">
@@ -371,7 +371,7 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
   
- >Use Case related to **Log in and log out**.
+ >Specific `Use Case` related to **Log in and log out**.
 
 `Use Case 3`	   |  <br>|  <br>|  
  --- | --- | --- | 
@@ -390,7 +390,7 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
   
- >Use Case related to **Consult**.
+ >Specific `Use Case` related to **Consult**.
 
 `Use Case 4`	   |  <br>|  <br>|  
  --- | --- | --- | 
@@ -412,7 +412,7 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
   
->Use Case related to **Export**.
+>Specific `Use Case` related to **Export**.
 
 `Use Case 5`	   |  <br>|  <br>|  
  --- | --- | --- | 
@@ -428,7 +428,7 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
  
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
  
->Use Case related to **Export Excel File**.
+>Specific `Use Case` to **Export Excel File**.
 
 `Use Case 6`	   |  <br>|  <br>|  
  --- | --- | --- | 
@@ -440,7 +440,7 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
  
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
  
->Use Case related to **Modification**.
+>Specific `Use Case` related to **Modification**.
 
 `Use Case 7`	   |  <br>|  <br>|  
  --- | --- | --- | 
@@ -456,7 +456,7 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   
 <br>Go  back to [Table of Content](#Table-of-Content).<br>  
   
->Use Case related to **Database Backup**.
+>Specific `Use Case` related to **Database Backup**.
 
 `Use Case 8`	   |  <br>|  <br>|  
  --- | --- | --- | 
@@ -470,7 +470,7 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
  
  <br>Go  back to [Table of Content](#Table-of-Content).<br>
  
->Use Case related to **Uninstall**.
+>Specific `Use Case` related to **Uninstall**.
 
 `Use Case 9`	   |  <br>|  <br>|  
  --- | --- | --- | 
