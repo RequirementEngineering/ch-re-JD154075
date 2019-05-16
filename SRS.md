@@ -41,7 +41,7 @@
       >[3.7 Use Case](#Use-Case)<br>
 4. [Supporting Information](#Supporting-Information)<br>
       >[4.1 Elicitation Process](#Elicitation-Process)<br>
-      >[Business Process Managment](#Business Process Managment)<br>
+      >[4.2 Business Process Managment](#Business-Process-Managment)<br>
       
  
 
