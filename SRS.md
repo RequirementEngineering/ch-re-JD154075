@@ -630,3 +630,15 @@ Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/mas
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
 
+>Sub-process `Faculty Consult`.
+
+<br>
+<p align="center">
+<img width="900" height="300"
+src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Consult2.png">
+</p>
+<p align="center">
+Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Consult2.vpp">.vpp</a> file.
+</p>
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
