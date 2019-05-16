@@ -446,14 +446,14 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
 <br>
 <p align="center">
 <img width="600" height="300"
-src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/Export.PNG">
+src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/Ex.PNG">
 </p>
 <br>
 
 `Use Case 5`	   |  <br>|  <br>|  
  --- | --- | --- | 
   <br>|`Primary Actor`	   | Laboratory Director |
-  <br>|`Pre-condition`	   | Correct consult of registrys of faculty or students.|
+  <br>|`Pre-condition`	   | Need laboratory director's ID to export, and have correct consult of registrys of faculty or students.|
   <br>|`Main Scenario`	   | Export of registry of faculty or students|
   <br>| **Setp 1** | To export records click on **Exportar a Excel**. |
   <br>| **Setp 2** | It will take a few seconds to process. |
