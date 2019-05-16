@@ -426,6 +426,18 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
   <br>| **Setp 6** | Select **Nombre** in the **Estudiantes** frame> Enter Student name> Click on **Buscar** |
   <br>| <br> | `Total Search of Students in records.` |
   <br>| **Setp 7** | Select **Todos** in the **Estudiantes** frame> Click on **Buscar** |
+  <br>| **Setp 8** | Select **Matrícula** in the **Maestros**  frame> Enter Student ID> Click on **Buscar** |
+  <br>| <br> | `Search for Students by Name.` |
+  <br>| **Setp 9** | Select **Nombre** in the **Maestros** frame> Enter Student name> Click on **Buscar** |
+  <br>| <br> | `Total Search of Students in records.` |
+  <br>| **Setp 10** | Select **Todos** in the **Maestros** frame> Click on **Buscar** |
+   <br>| **Setp 11** | Select **Matrícula** in the **Lab/Equipo**  frame> Enter Student ID> Click on **Buscar** |
+  <br>| <br> | `Search for Students by Name.` |
+  <br>| **Setp 12** | Select **Maestro** in the **Lab/Equipo** frame> Enter Student name> Click on **Buscar** |
+  <br>| <br> | `Total Search of Students in records.` |
+  <br>| **Setp 12** | Select **Nombre** in the **Lab/Equipo** frame> Enter Student name> Click on **Buscar** |
+  <br>| <br> | `Total Search of Students in records.` |
+  <br>| **Setp 13** | Select **Todos** in the **Lab/Equipo** frame> Click on **Buscar** |
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
   
