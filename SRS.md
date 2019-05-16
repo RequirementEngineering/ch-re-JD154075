@@ -584,7 +584,7 @@ Line Number|  Actors	   |  <br>|
    Line 8|  `Laboratory Director:` |`I would also like for the program to have an option or a button to export the report in a excel file `	   |
   Line 9|  Developers: |Of course we can do that, wil the exported file in excel have a templet with the school logo?	   |
   Line 10|  `Laboratory Director:` |`Yes, I would like that, it would also have a sing off section to make the report oficial `	   |
-  Line 11|  Developers: |Ok, we can do that.Will give you a new revision next time 	   |
+  Line 11|  Developers: |Ok, we can do that.Will give you a new revision next time. 	   |
   Line 12|  `Laboratory Director:` |`Yes,ok guys I will see you next time. `	   |
   Line 13|  Developers: |Ok,thank you. 	   |
   
