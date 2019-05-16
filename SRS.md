@@ -401,6 +401,13 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
   
  >`Use Case` related to **Consult**.
+ 
+ <br>
+<p align="center">
+<img width="800" height="400"
+src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/Cons.PNG">
+</p>
+<br>
 
 `Use Case 4`	   |  <br>|  <br>|  
  --- | --- | --- | 
