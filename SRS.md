@@ -616,7 +616,6 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
 <p align="center">
 Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/CA.vpp">.vpp</a> file.
 </p>
-<br>
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
 
