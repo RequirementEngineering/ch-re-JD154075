@@ -347,6 +347,13 @@ src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Im
    
 >Use Case related to **Registry**.
 
+<br>
+<p align="center">
+<img width="500" height="400"
+src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/Registry.PNG">
+</p>
+<br>
+
 `Use Case 2`	   |  <br>|  <br>|  
  --- | --- | --- | 
   <br>|`Primary Actor`	   | Laboratory Director/Faculty/Student|
