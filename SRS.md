@@ -606,12 +606,15 @@ Line Number|  Actors	   |  <br>|
 ## Business Process Mapping
 
 <br>
+</p>
+<p align="center">
+<b>General BPM Diagram</b>
 <p align="center">
 <img width="800" height="800"
 src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Business%20Process%20Diagram1.png">
 </p>
 <p align="center">
-Go to<a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/CA.vpp">.vpp</a> file.
+Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/CA.vpp">.vpp</a> file.
 </p>
 <br>
 
