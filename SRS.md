@@ -42,7 +42,7 @@
 4. [Supporting Information](#Supporting-Information)<br>
       >[4.1 Elicitation Process](#Elicitation-Process)<br>
       >[4.2 Business Process Mapping](#Business-Process-Mapping)<br>
-      
+      >[4.3  BPM Description](# BPM-Description)<br>
  
 
 
@@ -708,8 +708,7 @@ Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/mas
 ## BPM Description
 
 1. The process starts with the **Laboratory Director**, the reason being,is that he is the administrator, he decides whom to register. The registry start with inputting user data ,such as *Unique Id,Full Name,Phone Number, and Email*.If registry is made correctly, the process will proceed.
->If not,the process needs to access the **data registry** in the **local database**, but to do so, it will need the Laboratory<br> >Director's Unique ID.This is where the **modification sub-process** enters. In this process the Laboratory Director can modify ory<br> >delete any data realated to any user,besides a Unique ID, but the process needs the Laboratory Director's Unqie ID, as the reason being<br> 
->,it is because there is a security protocol in place, without that Unique ID, no modification will be made in the local database<br>
+>If not,the process needs to access the **data registry** in the **local database**, but to do so, it will need the Laboratory >Director's Unique ID.This is where the **modification sub-process** enters. In this process the Laboratory Director can modify or<br> >delete any data realated to any user,besides a Unique ID, but the process needs the Laboratory Director's Unqie ID, as the reason being, it is because there is a security protocol in place, without that Unique ID, no modification will be made in the local database<br>
 
 2. After the **registry process** is made , the **Laboratory Director**,**Student**, and the **Faculty** can now begin the **Log In** and **Log out** **process**, here the process will send a message, saying if the UniqueID was registered properly, showing that date data of the log in/out was made.
 
@@ -717,6 +716,9 @@ Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/mas
 
 3. To consult any data,the **consult sub-process** needs to begin, here any user can see their records,by inputting a *Unique ID,Date or Name*, but this data can not be modified.
 
-4.To make a lab/equipment reservation, the **reservation sub-process** needs to begin, here the faculty user can make an appointment to either use an equipment or laboratory, but no reservation will be made ,with out cheking fisrt, if it's available, if so Laboratory Director decides if to accept reservation or to cancle the process.
+4. To make a lab/equipment reservation, the **reservation sub-process** needs to begin, here the faculty user can make an appointment to either use an equipment or laboratory, but no reservation will be made ,with out cheking fisrt, if it's available, if so Laboratory Director decides if to accept reservation or to cancle the process.
 
 5. To export a report,the **export sub-process** needs to begin,but to do so, the process will require the Laboratory Director Unique ID, sense it is sensitive information a security protocol begins. This report will be exported to an **excel** templet where it is preformatted with the school's logo,name, and secction where Laboratory Director can input his information.
+
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
