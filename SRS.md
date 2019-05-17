@@ -655,3 +655,16 @@ Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/mas
 </p>
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
+
+>Sub-process `Export File`.
+
+<br>
+<p align="center">
+<img width="900" height="400"
+src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Export.png">
+</p>
+<p align="center">
+Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Export.vpp">.vpp</a> file.
+</p>
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
