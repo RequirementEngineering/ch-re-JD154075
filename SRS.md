@@ -11,8 +11,9 @@
 <br>
 <p align="center">
 <b>Software Requirements Specification</b></br>
-<b>for</b></br>
+<b>For</b></br>
 <b>Laboratorial Timesheets Database Registry</b></br>
+<b>By</b></br>
 <b>Juan Daniel Mata Gallegos</b></br>
 <b>154075</b></br>
 </p>
