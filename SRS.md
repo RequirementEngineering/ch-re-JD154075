@@ -720,7 +720,7 @@ Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/mas
 
 4. To make a lab/equipment reservation, the **reservation sub-process** needs to begin, here the faculty user can make an appointment to either use an equipment or laboratory, but no reservation will be made ,with out cheking fisrt, if it's available, if so Laboratory Director decides if to accept reservation or to cancle the process.
 
-5. To export a report,the **export sub-process** needs to begin,but to do so, the process will require the Laboratory Director Unique ID, sense it is sensitive information a security protocol begins. This report will be exported to an **excel** templet where it is preformatted with the school's logo,name, and secction where Laboratory Director can input his information.
+5. To export a report,the **export sub-process** needs to begin,but to do so, the process will require the Laboratory Director Unique ID, sense it is sensitive information a security protocol begins. This report will be exported to an **excel** templet where it is preformatted with the *school's logo,name, and a secction where Laboratory Director can input his information*.
 
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
