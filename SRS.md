@@ -708,11 +708,14 @@ Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/mas
 ## BPM Description
 
 1. The process starts with the **Laboratory Director**, the reason being,is that he is the administrator, he decides whom to register. The registry start with inputting user data ,such as *Unique Id,Full Name,Phone Number, and Email*.If registry is made correctly, the process will proceed.
->If not,the process needs to access the **data registry** in the **local database**, but to do so, it will need the Laboratory >Director's Unique ID.This is where the **modification sub-process** enters. In this process the Laboratory Director can modify or<br> >delete any data realated to any user,besides a Unique ID, but the process needs the Laboratory Director's Unqie ID, as the reason being, it is because there is a security protocol in place, without that Unique ID, no modification will be made in the local database<br>
+
+<br>
+>If not,the process needs to access the **data registry** in the **local database**, but to do so, it will need the Laboratory Director's Unique ID.This is where the **modification sub-process** enters. In this process the Laboratory Director can modify or delete any data realated to any user,besides a Unique ID, but the process needs the Laboratory Director's Unqie ID, as the reason being, it is because there is a security protocol in place, without that Unique ID, no modification will be made in the local database.
+<br>
 
 2. After the **registry process** is made , the **Laboratory Director**,**Student**, and the **Faculty** can now begin the **Log In** and **Log out** **process**, here the process will send a message, saying if the UniqueID was registered properly, showing that date data of the log in/out was made.
 
->If not, begin **modification sub-process**<br>
+>If not, begin **modification sub-process**.<br>
 
 3. To consult any data,the **consult sub-process** needs to begin, here any user can see their records,by inputting a *Unique ID,Date or Name*, but this data can not be modified.
 
