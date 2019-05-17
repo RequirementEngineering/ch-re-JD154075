@@ -13,7 +13,8 @@
 <b>Software Requirements Specification</b></br>
 <b>for</b></br>
 <b>Laboratorial Timesheets Database Registry</b></br>
-<b>Prepared by Juan Mata</b></br>
+<b>Juan Daniel Mata Gallegos</b></br>
+<b>154075</b></br>
 </p>
 
 <br>
