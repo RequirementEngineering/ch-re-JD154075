@@ -668,3 +668,16 @@ Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/mas
 </p>
 
 <br>Go  back to [Table of Content](#Table-of-Content).<br>
+
+>Sub-process `Lab/Equipment Reservation`.
+
+<br>
+<p align="center">
+<img width="900" height="300"
+src="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Lab_Equipment%20Reservation.png">
+</p>
+<p align="center">
+Go to <a href="https://github.com/RequirementEngineering/ch-re-JD154075/blob/master/SRS_Images/BPMN/Lab.vpp">.vpp</a> file.
+</p>
+
+<br>Go  back to [Table of Content](#Table-of-Content).<br>
